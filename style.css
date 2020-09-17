@@ -1,3 +1,82 @@
-h1{
-    background-color: aquamarine;
+body{ 
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
 }
+   
+
+
+.content{
+    max-width:80%;
+    height: auto;
+    margin:0 auto;
+   
+
+
+}
+
+header{
+    background-color:rgba(70, 53, 53, 0.6);
+    margin:0;
+    padding:20px;
+
+}
+p{
+    font-size: 3em;
+    margin:0;
+    padding-left:200px;
+    font-weight: 600;
+}
+main{
+    background-color: #D6D6D6;
+    margin:0;
+    height:430px;
+    
+}
+
+h1{
+    padding-top:2em;
+    padding-left: 1em;
+    margin-bottom:0;
+}
+main ul li{
+    padding:10px;
+    margin-left:20px;
+}
+
+.mypic{
+    position: absolute;
+    top: 20px;
+    right:150px;
+    box-shadow: 15px 10px 30px 10px rgba(7, 7, 7, 0.2)
+
+
+}
+
+footer{
+    background-color:rgba(70, 53, 53, 0.6);
+    padding:50px;
+    margin:0;
+}
+.second{
+    text-align: center;
+}
+
+ul #first, #second, #third{
+    border-right: 1px solid black;
+}
+
+.second li{
+    display:inline;
+    padding:5px;
+}
+a:hover{
+    background-color:rgba(0,0,0,0.3);
+    color:white;
+    border-radius: 20px;
+}
+
+a{
+    padding:10px;
+    margin:5px;
+}
+
