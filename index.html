@@ -9,6 +9,9 @@
     </style>
     <link rel="stylesheet" href="/style.css">
     <title>Course Portal Home Page</title>
+    <script>
+
+    </script>
 </head>
 
 <body>
@@ -37,8 +40,23 @@
                 Learning</a></li>
             </ul>
 
+            <p id="parfooter">Last Updated: </p><span id="currentDate"></span>
+               
         </footer>
     </div>
+    
+    <script src="date.js">
+        try{
+            let options={
+                weekday:"long",
+                day:"numeric",
+                month:"long",
+                year:"numeric"
+            };
+
+            document.getElementById('currentDate').textContent=newDate().toLocaleDateString("en-Us,options");
+        }
+    </script>
 </body>
 
 </html>
