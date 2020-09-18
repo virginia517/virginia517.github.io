@@ -91,6 +91,7 @@ a {
 
 #footer-div {
     text-align: center;
+    font-size: smaller;
 }
 
 @media only screen and (max-width:800px) {
