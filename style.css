@@ -89,7 +89,6 @@ a{
 @media only screen and (max-width:800px){
 .content{
     width:100%;
-
 }
 img{
     display:none;
@@ -107,6 +106,12 @@ p,h1{
 ul #first, #second, #third{
     border-right: 0;
 }
+
+footer{
+
+    padding:0;
+}
+
    
 }
 
