@@ -101,6 +101,7 @@ p,h1{
 .second li{
 
     display:block;
+    margin-right:25px;
     
 }
 ul #first, #second, #third{
