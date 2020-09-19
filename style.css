@@ -92,6 +92,7 @@ a {
 #footer-div {
     text-align: center;
     font-size: smaller;
+    padding-left: 30px;
 }
 
 @media only screen and (max-width:800px) {
@@ -104,7 +105,7 @@ a {
     }
 
     p,
-    h1 {
+    h1{
         font-size: 2em;
         padding-left: 0;
         text-align: center;
@@ -123,10 +124,11 @@ a {
         border-right: 0;
     }
 
-    footer {
+    footer,#footer-div {
 
         padding: 0;
     }
+    
 
 
 }
