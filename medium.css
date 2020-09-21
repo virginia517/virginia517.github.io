@@ -1,24 +1,27 @@
-@media only screen and (min-width:32.5em){
-    h1{
+@media only screen and (min-width:32.5em) {
+    h1 {
         font-size: 1.5rem;
-        padding:0;
-    }
-    h2{
-        font-size: 1.5rem;
-        padding-bottom:10px;
-    }
-      header img{
-        margin:0;
-        padding:0;
-        float:right;
-    }
-    main{
-        height: 100%;
-        background-color: indigo;
-    }
-    footer{
-        height: 100%;
+        padding: 0;
     }
 
-    
+    h2 {
+        font-size: 1.5rem;
+        padding-bottom: 10px;
+    }
+
+    header img {
+        padding: 0;
+
+
+    }
+
+    main {
+        height: auto;
+    }
+
+    footer {
+        height: auto;
+    }
+
+
 }
