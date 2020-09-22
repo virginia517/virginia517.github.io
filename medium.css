@@ -1,12 +1,13 @@
 @media only screen and (min-width:32.5em) {
     h1 {
         font-size: 1.5rem;
-        padding: 0;
+        padding-top: 30px;
     }
 
     h2 {
         font-size: 1.5rem;
         padding-bottom: 10px;
+    
     }
 
     header img {
@@ -17,10 +18,12 @@
 
     main {
         height: auto;
+        background-color: lightcoral;
     }
 
     footer {
         height: auto;
+    
     }
 
 
