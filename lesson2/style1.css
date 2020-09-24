@@ -28,7 +28,7 @@ footer{
     text-align: center;
     height: auto;
     font-weight: lighter;
-    font-size: 1em;
+    font-size: smaller;
     background-color: rgba(70, 53, 53, 0.6);
     padding:20px;
     margin-top: 2em;
