@@ -16,12 +16,13 @@ header{
 
 
 main{
-   max-width: 800px;
+    
     display: grid;
     grid-template-columns: 1fr;
     grid-gap:10px;
-    justify-content:center;
-    margin:0 auto;
+    
+    
+
 }
 
 
