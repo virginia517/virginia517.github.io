@@ -16,23 +16,15 @@ header{
 
 
 main{
-    max-width: 800px;
-    margin:0 auto;
+   max-width: 800px;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap:10px;
     justify-content:center;
+    margin:0 auto;
 }
 
-#first{
-    grid-column: 1/2;
-}
-#second{
-    grid-column: 2/3;
-}
-#third{
-    grid-column: 3/4;
-}
+
 
 footer{
     text-align: center;
