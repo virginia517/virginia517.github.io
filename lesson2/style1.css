@@ -3,7 +3,7 @@ img{
     height: auto;
 }
 
-header{
+header h1, #head-par{
     text-align: center;
 }
 
@@ -24,4 +24,15 @@ li{
 
 p,h1,h2{
     text-align: left;
+}
+
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+h1{
+    font-family: 'Secular One', sans-serif;
+}
+
+#head{
+    font-size: 3em;
 }
