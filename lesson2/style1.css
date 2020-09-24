@@ -25,7 +25,7 @@ main{
 
 
 footer{
-    text-align: center;
+    text-align: left;
     height: auto;
     font-weight: lighter;
     font-size: smaller;
@@ -90,6 +90,7 @@ h1{
 
 #footer-div{
     font-style: italic;
+    font-size: smaller;
 }
 
 
