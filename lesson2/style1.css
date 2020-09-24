@@ -5,6 +5,7 @@ img{
 }
 
 header{
+    width:100%;
     padding:20px;
     background-color:rgba(70, 53, 53, 0.6);
     margin:0;
