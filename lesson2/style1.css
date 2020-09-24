@@ -5,7 +5,10 @@ img{
 }
 
 header{
-    margin-bottom:30px ;
+    padding:20px;
+    background-color:rgba(70, 53, 53, 0.6);
+    margin:0;
+
 }
 
 
@@ -21,10 +24,14 @@ footer{
     height: auto;
     font-weight: lighter;
     font-size: 1em;
+    background-color: rgba(70, 53, 53, 0.6);
+    padding:20px;
+    margin-top: 2em;
 }
 
 li{
     display: inline;
+    font-weight: bold;
 }
 
 main p{
@@ -66,4 +73,8 @@ h1{
     text-decoration: none;
     text-align: center;
     font-family: 'Secular One', sans-serif;
+}
+
+#footer-div{
+    font-style: italic;
 }
