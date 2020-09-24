@@ -19,6 +19,16 @@ main{
     grid-gap:10px;
 }
 
+#first{
+    grid-column: 1/2;
+}
+#second{
+    grid-column: 2/3;
+}
+#third{
+    grid-column: 3/4;
+}
+
 footer{
     text-align: center;
     height: auto;
