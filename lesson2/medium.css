@@ -1,6 +1,6 @@
 @media only screen and (min-width:32.5em){
     main{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 2fr 2fr;
     }
     header{
         font-size: 1em;
