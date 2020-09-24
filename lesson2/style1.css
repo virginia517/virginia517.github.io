@@ -15,7 +15,9 @@ main{
 
 footer{
     text-align: center;
-    height: 150px;
+    height: auto;
+    font-weight: lighter;
+    font-size: 1em;
 }
 
 li{
@@ -29,8 +31,11 @@ p,h1,h2{
 body{
     font-family: 'Varela Round', sans-serif;
 }
-h1{
+h1,#head-par,footer{
     font-family: 'Secular One', sans-serif;
+    font-size: 2em;
+    font-weight: lighter;
+
 }
 
 #head{
