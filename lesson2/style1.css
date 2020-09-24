@@ -3,9 +3,7 @@ img{
     height: auto;
 }
 
-header h1, #head-par{
-    text-align: center;
-}
+
 
 main{
     display: grid;
@@ -31,13 +29,30 @@ p,h1,h2{
 body{
     font-family: 'Varela Round', sans-serif;
 }
-h1,#head-par,footer{
+h1{
+    
+    font-weight: lighter;
+    font-size: 2em;
+    text-decoration: underline;
+    margin-bottom: 0;
+    
+
+}
+#head-par{
+
+    margin-top: 0;
     font-family: 'Secular One', sans-serif;
     font-size: 2em;
-    font-weight: lighter;
+    text-align: center;
+    
 
 }
 
 #head{
     font-size: 3em;
+    margin-bottom: 0;
+    font-style: italic;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
 }
