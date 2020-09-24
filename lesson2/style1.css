@@ -14,7 +14,10 @@ header{
 
 
 
+
 main{
+    max-width: 800px;
+    margin:0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap:10px;
@@ -57,6 +60,7 @@ p,h1,h2{
 
 body{
     font-family: 'Varela Round', sans-serif;
+    
 }
 h1{
     
