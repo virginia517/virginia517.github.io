@@ -1,0 +1,27 @@
+img{
+    width:400px;
+    height: auto;
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:10px;
+}
+
+footer{
+    text-align: center;
+    height: 150px;
+}
+
+li{
+    display: inline;
+}
+
+p,h1,h2{
+    text-align: left;
+}
