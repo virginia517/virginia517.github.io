@@ -59,9 +59,16 @@ h1{
     font-size: 1.7em;
     text-decoration: underline;
     margin-bottom: 0;
-    
+    padding-left:10px;
+    }
 
-}
+    section a{
+        padding-left:10px;
+    }
+
+    section p{
+        padding-left:10px;
+    }
 #head-par{
 
     margin-top: 0;
@@ -84,3 +91,5 @@ h1{
 #footer-div{
     font-style: italic;
 }
+
+
