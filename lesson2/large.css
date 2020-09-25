@@ -14,4 +14,14 @@
     footer{
         font-size:1em;
     }
+
+    h1{
+        font-size: 1.7em;
+    }
+    main p{
+        font-size: 1em;
+    }
+    section a{
+        font-size: 1em;
+    }
 }

@@ -8,7 +8,8 @@ header{
     width:auto;
     padding:20px;
     background-color:rgba(70, 53, 53, 0.6);
-    margin:0;
+    margin-bottom: 20px;
+    
 
 }
 
@@ -42,6 +43,7 @@ li{
 main p{
     margin: 5px;
     margin-left: 0;
+    font-size: smaller;
 
 }
 
@@ -56,7 +58,7 @@ body{
 h1{
     
     font-weight: lighter;
-    font-size: 1.7em;
+    font-size:1em ;
     text-decoration: underline;
     margin-bottom: 0;
     padding-left:10px;
@@ -64,6 +66,7 @@ h1{
 
     section a{
         padding-left:10px;
+        font-size: smaller;
     }
 
     section p{
