@@ -1,27 +1,29 @@
-@media only screen and (min-width:60em){
-    main{
+@media only screen and (min-width:60em) {
+    main {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    #head-par{
+    #head-par {
         font-size: 2em;
     }
 
-    #head{
+    #head {
         font-size: 3em;
     }
 
-    footer{
-        font-size:1em;
-    }
-
-    h1{
-        font-size: 1.7em;
-    }
-    main p{
+    footer {
         font-size: 1em;
     }
-    section a{
+
+    h1 {
+        font-size: 1.7em;
+    }
+
+    main p {
+        font-size: 1em;
+    }
+
+    section a {
         font-size: 1em;
     }
 }

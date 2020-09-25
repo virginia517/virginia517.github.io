@@ -1,15 +1,15 @@
-img{
-    width:400px;
+img {
+    width: 400px;
     height: auto;
     margin-top: 10px;
 }
 
-header{
-    width:auto;
-    padding:20px;
-    background-color:rgba(70, 53, 53, 0.6);
+header {
+    width: auto;
+    padding: 20px;
+    background-color: rgba(70, 53, 53, 0.6);
     margin-bottom: 20px;
-    
+
 
 }
 
@@ -18,71 +18,75 @@ header{
 
 
 
-main{
+main {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap:10px;
-    }
+    grid-gap: 10px;
+}
 
 
-footer{
+footer {
     text-align: center;
     height: auto;
     font-weight: lighter;
     font-size: smaller;
     background-color: rgba(70, 53, 53, 0.6);
-    padding:20px;
+    padding: 20px;
     margin-top: 2em;
 }
 
-li{
+li {
     display: inline;
     font-weight: bold;
 }
 
-main p{
+main p {
     margin: 5px;
     margin-left: 0;
     font-size: smaller;
 
 }
 
-p,h1,h2{
+p,
+h1,
+h2 {
     text-align: left;
 }
 
-body{
+body {
     font-family: 'Varela Round', sans-serif;
-    
+
 }
-h1{
-    
+
+h1 {
+
     font-weight: lighter;
-    font-size:1em ;
+    font-size: 1em;
     text-decoration: underline;
     margin-bottom: 0;
-    padding-left:10px;
-    }
+    padding-left: 10px;
+}
 
-    section a{
-        padding-left:10px;
-        font-size: smaller;
-    }
+section a {
+    padding-left: 10px;
+    font-size: smaller;
+}
 
-    section p{
-        padding-left:10px;
-    }
-#head-par{
+section p {
+    padding-left: 10px;
+}
+
+#head-par {
 
     margin-top: 0;
     font-family: 'Secular One', sans-serif;
     font-size: 1em;
     text-align: center;
-    
+
 
 }
 
-#head{
+#head {
     font-size: 1.5em;
     margin-bottom: 0;
     font-style: italic;
@@ -91,9 +95,7 @@ h1{
     font-family: 'Secular One', sans-serif;
 }
 
-#footer-div{
+#footer-div {
     font-style: italic;
     font-size: smaller;
 }
-
-
