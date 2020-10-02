@@ -10,6 +10,9 @@ img{
     width:100px;
     height: 100px;
 }
-header{
+header,footer{
     background-color: #12BA85;
+    width:80%;
+    height:auto;
+    margin: 0 auto;
 }
