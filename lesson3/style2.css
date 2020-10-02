@@ -16,3 +16,8 @@ header,footer{
     height:auto;
     margin: 0 auto;
 }
+main{
+    width:80%;
+    height:auto;
+    margin:0 auto;
+}
