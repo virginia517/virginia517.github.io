@@ -90,6 +90,14 @@ main li{
     margin-top: 20px;
 }
 
+nav a{
+    color:black;
+}
+
+a link:active{
+    color:
+}
+
 
 @media only screen and (min-width:37.5em){
     nav ul{
