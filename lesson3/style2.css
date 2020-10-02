@@ -95,7 +95,10 @@ nav a{
 }
 
 a link:active{
-    color:
+    color: grey;
+}
+a:hover{
+    color:whitesmoke;
 }
 
 
