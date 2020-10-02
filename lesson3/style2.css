@@ -21,3 +21,6 @@ main{
     height:auto;
     margin:0 auto;
 }
+header{
+    display:flex;
+}
