@@ -36,6 +36,9 @@ nav ul{
     text-decoration:none;
 
 }
+nav a{
+    text-decoration: none;
+}
 
 nav ul li{
     text-decoration: none;
