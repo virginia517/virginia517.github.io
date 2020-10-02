@@ -53,9 +53,11 @@ footer{
     text-align: center;
     font-size: smaller;
     padding-left: 30px;
-    
+    display: inline;
+
     
 }
-footer ul li{
+footer ul{
     border-right: 1px solid black;
+    list-style-type: none;
 }
