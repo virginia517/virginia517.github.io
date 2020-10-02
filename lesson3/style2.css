@@ -28,7 +28,7 @@ h1{
 nav ul{
     display: flex;
     list-style-type: none;
-    justify-content: center;
+    justify-content: space-around;
 
 }
 .first{
