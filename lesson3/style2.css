@@ -59,7 +59,10 @@ footer{
     
 }
 footer ul{
-    border-right: 1px solid black;
+   
     list-style-type: none;
+    display: inline;
+}
+footer ul li{
     display: inline;
 }
