@@ -36,7 +36,9 @@ h1{
 }
 
 nav ul{
-   diplay:block;
+   text-align: center;
+   display:block;
+   list-style-type: none;
 }
 
 .first{
@@ -86,7 +88,7 @@ main li{
 }
 
 
-@media only screen and (min-width:60em){
+@media only screen and(min-width:60em){
     nav ul{
         display: flex;
         list-style-type: none;
