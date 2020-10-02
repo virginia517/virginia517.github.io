@@ -69,6 +69,6 @@ footer ul{
 footer ul li{
     display: inline;
 }
-main p{
-    line-height: 1em;
+main li{
+    margin-top: 20px;
 }
