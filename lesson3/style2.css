@@ -52,7 +52,6 @@ nav ul li{
 footer{
     text-align: center;
     font-size: smaller;
-    padding-left: 30px;
     height: 100px;
     
 
@@ -63,8 +62,8 @@ footer ul{
    
     list-style-type: none;
     display: inline;
-    padding-top:30px;
-    margin:30px;
+    padding-top:50px;
+    margin:0;
 
 }
 footer ul li{
