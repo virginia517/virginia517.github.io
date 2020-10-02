@@ -31,9 +31,7 @@ nav ul{
     justify-content: space-between;
 
 }
-header{
-    display:flex;
-}
+
 nav ul li{
     text-decoration: none;
 }
