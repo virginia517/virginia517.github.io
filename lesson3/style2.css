@@ -29,4 +29,8 @@ nav ul{
     display: flex;
     list-style-type: none;
     justify-content: center;
+
+}
+nav ul li{
+    text-decoration: none;
 }
