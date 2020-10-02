@@ -63,6 +63,9 @@ footer ul{
    
     list-style-type: none;
     display: inline;
+    padding:0;
+    margin:30px;
+
 }
 footer ul li{
     display: inline;
