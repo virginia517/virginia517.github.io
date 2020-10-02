@@ -85,7 +85,8 @@ main li{
 
 @media only screen and(min-width:32.5em){
     nav ul{
-        display:inline;
+        display:grid;
+        
     }
     
 }
