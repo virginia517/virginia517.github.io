@@ -6,6 +6,9 @@ body{
 h1,h2{
     font-family: 'Francois One', sans-serif;
 }
+h2{
+    margin-bottom: 0;
+}
 img{
     width:100px;
     height: 100px;
