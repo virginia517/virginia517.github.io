@@ -32,6 +32,6 @@ nav ul{
     display: flex;
 
 }
-nav li{
+nav ul li{
     list-style-type: none;
 }
