@@ -28,7 +28,7 @@ header{
     display:flex;
 }
 
-nav ul{
+nav ul li{
     display: flex;
 
 }
