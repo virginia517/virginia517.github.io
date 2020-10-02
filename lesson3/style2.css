@@ -24,11 +24,9 @@ main{
 h1{
     padding-left:10px;
 }
-header{
-    display:flex;
-}
 
 nav ul{
     display: flex;
     list-style-type: none;
+    justify-content: center;
 }
