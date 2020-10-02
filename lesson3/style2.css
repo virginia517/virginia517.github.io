@@ -48,3 +48,13 @@ nav a{
 nav ul li{
     text-decoration: none;
 }
+
+footer{
+    text-align: center;
+    font-size: smaller;
+    padding-left: 30px;
+    
+}
+footer ul li{
+    border-right: 1px solid black;
+}
