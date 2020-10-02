@@ -21,6 +21,17 @@ main{
     height:auto;
     margin:0 auto;
 }
+h1{
+    padding-left:10px;
+}
 header{
     display:flex;
+}
+
+nav ul{
+    display: flex;
+
+}
+nav li{
+    list-style-type: none;
 }
