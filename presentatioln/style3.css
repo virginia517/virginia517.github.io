@@ -1,0 +1,27 @@
+.first{
+    background-color:#9e823a;
+  }
+  .third{
+    background-color:#9e9b3a;
+  }
+  .second{
+    background-color:#9e693a;
+  }
+  
+  img{
+    width: 400px;
+    height: auto;
+    padding-left:10px;
+  }
+  
+  h1,p{
+    padding-left: 10px;
+    font-family: sans-serif;
+  }
+  main{
+    display: block;
+  }
+  
+ 
+  
+  
