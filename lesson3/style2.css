@@ -43,6 +43,10 @@ h1{
     
 }
 
+nav ul{
+    list-style-type: none;
+}
+
 nav a{
    text-align: center;
    display:block;
