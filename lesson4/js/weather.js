@@ -9,3 +9,7 @@ var fullDate= weekDays + "," +" " + month + " " + date + "," + " " + year;
 document.getElementById('currentDate').textContent=fullDate;*/
 var dateNow=new Date(document.lastModified);
 document.getElementById('currentDate').textContent=dateNow;
+
+function toggleMenu() {
+    document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+}

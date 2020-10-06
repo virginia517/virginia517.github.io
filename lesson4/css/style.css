@@ -47,7 +47,10 @@ padding: 0;
 }
 .navigation a{
     display: block;
-    
+
+}
+.responsive li{
+    display: block;
 }
 footer, nav{
     background-color: rgb(255, 199, 60);
