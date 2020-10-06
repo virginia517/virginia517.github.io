@@ -42,7 +42,7 @@ nav a{
 display: none;
 padding: 0;
 }
-navigation li:first-child {
+.navigation li:first-child {
     display: block;
 }
 footer, nav{
