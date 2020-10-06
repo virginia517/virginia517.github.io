@@ -56,6 +56,9 @@ padding: 10px;
 .responsive li{
     display: block;
 }
+.ham{
+    padding-left: 0;
+}
 
 
 .navigation a:hover {
@@ -97,7 +100,11 @@ footer{
 }
 footer a{
     text-decoration: none;
-    font-weight: bold;
+    color: black;
+    font-style: italic;
+}
+footer a:hover{
+    color:rgb(255, 199, 60); 
 }
 
 #second, #third, #fourth{
