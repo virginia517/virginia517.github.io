@@ -26,6 +26,9 @@ header{
     display: flex;
 
 }
+nav{
+    background-color: rgb(255, 199, 60);
+}
 nav ul{
     list-style-type: none;
     margin-top:0;
@@ -40,25 +43,29 @@ nav a{
 }
 .navigation li{
 display: none;
-padding: 0;
+padding: 10px;
 }
 .navigation li:first-child {
     display: block;
 }
 .navigation a{
     display: block;
+    color: black;
+    
+
 
 
 }
 .responsive li{
     display: block;
+
    
 }
-
 .hamburger{
-    background-color:rgb(255, 199, 60);
+    background-color:rgb(255, 199, 60); 
 }
-.navigation a:hover{
+
+.navigation a:hover {
     background-color: whitesmoke;
 }
 footer, nav{
