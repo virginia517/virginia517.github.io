@@ -1,0 +1,14 @@
+body{
+    margin:0;
+    font-family: 'Quicksand', sans-serif;
+}
+h1,h2{
+    font-family: 'Righteous', cursive;
+}
+header{
+    background-color: rgba(60,216,255);
+}
+
+nav{
+    background-color: rgba(255,199,60);
+}
