@@ -14,5 +14,14 @@
         display: none;
     }
 
+    .logo{
+        width: 150px; 
+        height: auto;
+    }
+
+    header div{
+        text-align: center;
+    }
+
 
 }
