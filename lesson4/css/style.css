@@ -53,6 +53,9 @@ padding: 10px;
     display: block;
     color: black;
 }
+.navigation a:hover{
+    background-color:rgb(255, 199, 60);
+}
 .responsive li{
     display: block;
 }
