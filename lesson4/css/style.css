@@ -52,6 +52,7 @@ padding: 0;
 }
 .responsive li{
     display: block;
+   
 }
 .navigation a:hover{
     background-color: whitesmoke;
