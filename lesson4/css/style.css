@@ -68,6 +68,24 @@ padding: 10px;
 .navigation a:hover {
     background-color: whitesmoke;
 }
-footer, nav{
+
+main{
+    display: block;
+}
+main h2{
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-size:small;
+    font-weight: lighter;
+}
+
+.content{
+    padding-left:20px;
+    padding-top: 10px;
+    font-size: smaller;
+}
+    
+
+footer{
     background-color: rgb(255, 199, 60);
 }
