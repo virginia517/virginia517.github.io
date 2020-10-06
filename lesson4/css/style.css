@@ -1,14 +1,30 @@
 body{
     margin:0;
     font-family: 'Quicksand', sans-serif;
+    font-size: smaller;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
 }
 h1,h2{
     font-family: 'Righteous', cursive;
 }
+
+h1{
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 0;
+    text-align: center;
+}
+header p{
+    margin-top: 0;
+}
 header{
     background-color: rgba(60,216,255);
     display: flex;
-    
+
 }
 
 nav{
