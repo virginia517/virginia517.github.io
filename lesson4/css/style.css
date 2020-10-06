@@ -45,6 +45,10 @@ padding: 0;
 .navigation li:first-child {
     display: block;
 }
+.navigation a{
+    display: block;
+    
+}
 footer, nav{
     background-color: rgb(255, 199, 60);
 }
