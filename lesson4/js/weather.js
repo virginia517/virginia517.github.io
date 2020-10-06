@@ -1,5 +1,5 @@
-/*var days=["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-var monthList=["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+//var days=["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+//var monthList=["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 var now=new Date();
 var weekDays=days[now.getDay()];
 var date= now.getDate();
