@@ -38,6 +38,9 @@ nav a{
     padding: 0;
 
 }
+.navigation li{
+display: none;
+}
 footer, nav{
     background-color: rgb(255, 199, 60);
 }
