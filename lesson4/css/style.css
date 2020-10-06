@@ -82,16 +82,22 @@ main h2{
 footer{
     background-color: rgba(60,216,255);
     font-size: smaller;
+
 }
 
 .second{
     list-style-type: none;
+    text-decoration: none;
     text-align: center;
     padding-top: 10px;
     padding-left: 0;
 }
 .second li{
     display: inline;
+}
+footer a{
+    text-decoration: none;
+    font-weight: bold;
 }
 
 #second, #third, #fourth{
