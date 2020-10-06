@@ -26,12 +26,18 @@ header{
     display: flex;
 
 }
-
-nav{
-    background-color: rgba(255,199,60);
-    display:block;
-    
+nav ul{
+    list-style-type: none;
+    margin-top:0;
 }
-footer{
-    background-color:  rgba(60,216,255);
+nav a{
+    text-decoration: none;
+}
+.navigation{
+    list-style: none;
+    padding: 0;
+
+}
+footer, nav{
+    background-color: rgb(255, 199, 60);
 }
