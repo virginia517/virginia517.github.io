@@ -88,4 +88,20 @@ main h2{
 
 footer{
     background-color: rgb(255, 199, 60);
+    font-size: smaller;
+}
+
+.second{
+    list-style-type: none;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 0;
+}
+.second li{
+    display: inline;
+}
+#footer-div{
+    font-size: smaller;
+    text-align: center;
+    padding-bottom: 10px;
 }
