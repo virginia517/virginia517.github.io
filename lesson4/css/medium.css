@@ -45,7 +45,11 @@
     }
     .content{
         font-weight: bold;
+        padding:15px;
     }
+footer{
+    font-weight: bold;
+}
 
 
 
