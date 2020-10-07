@@ -37,8 +37,16 @@
     }
 
     main h2{
-        font-size: 1.7em;
+        font-size: 1.3em;
+        text-align: center;
     }
+    main{
+        font-size: 1.2em ;
+    }
+    .content{
+        font-weight: bold;
+    }
+
 
 
 
