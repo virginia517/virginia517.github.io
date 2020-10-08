@@ -7,9 +7,13 @@ var month=monthList[now.getMonth()];
 var year=now.getFullYear();
 var fullDate= weekDays + "," +" " + month + " " + date + "," + " " + year;
 document.getElementById('currentDate').textContent=fullDate;*/
-var dateNow=new Date(document.lastModified);
-document.getElementById('currentDate').textContent=dateNow;
+/*var dateNow=new Date(document.lastModified);
+document.getElementById('currentDate').textContent=dateNow;*/
 
 function toggleMenu() {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
+
+try {
+  const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
+  document.getElementById('currentDate').textContent = new Date().toLocaleDateString('en-US', options);
