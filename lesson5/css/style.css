@@ -1,6 +1,6 @@
 body{
     margin:0;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
     font-size: smaller;
 }
 
@@ -21,6 +21,15 @@ h1{
 
 aside{
     display: block;
+    background-color:rgb(255,99,60);
+   
+    
+}
+aside p{
+    text-align: center;
+    color: whitesmoke;
+    margin:0;
+    padding: 10px;
 }
 header p{
     margin-top: 0;
