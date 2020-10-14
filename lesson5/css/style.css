@@ -51,12 +51,10 @@ nav ul{
     
 }
 #preston{
+    padding: 15px;
     text-align: center;
     margin: 0;
-    padding: 15px;
-    font-weight: bold;
 }
-
 .navigation li{
 display: none;
 padding: 5px;
