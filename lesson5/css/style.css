@@ -101,9 +101,21 @@ main h2{
 }
 
 .hero-ph{
-    width: 320px;
+    width: 200px;
     margin: 10 auto;
-    height: auto;
+    height: 150px;
+    
+}
+.hero-div{
+    position: relative;
+    
+}
+
+.weather-summary{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    background-color:rgb(255,99,60,0.5) 
     
 }
     
