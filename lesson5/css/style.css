@@ -152,6 +152,7 @@ article p{
 }
 .weather-summary span{
     color:rgb(255,99,60);
+    text-shadow: 0 0 5px black;
 }
 
 .second-div{
@@ -166,6 +167,10 @@ footer{
     width: 100%;
     height: auto;
 
+}
+.social-icon img{
+    width: 50px;
+    height: auto;
 }
 
 .second{
