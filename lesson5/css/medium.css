@@ -1,6 +1,7 @@
 @media only screen and (min-width:32.5em){
     .navigation{
         display: flex;
+        padding-left: 0;
       
     }
     .navigation li{
@@ -17,6 +18,11 @@
 
     body{
         font-size: 1em;
+    }
+
+    .navigation a:hover{
+        background-color: white;
+        color: rgb(255,99,60);
     }
  
 
@@ -53,8 +59,13 @@ footer{
     font-weight: bold;
 }
 
+.second-div{
+    display: block;
+}
 
-
-
+.weather-summary{
+    top: 40px;
+    width:50%;
+}
 
 }
