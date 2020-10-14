@@ -7,9 +7,13 @@
     .navigation li{
         display: block;
         flex: 1 1 auto;
+        padding-left: 0;
+        padding-right: 0;
     }
     .navigation a {
         text-align: center;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .navigation li:first-child{
@@ -64,8 +68,16 @@ footer{
 }
 
 .weather-summary{
-    top: 40px;
+    top: 30%;
     width:50%;
 }
-
+article img{
+    width: 400px;
+    float:right;
+    margin-left: 10px;
+}
+article h2{
+    text-align: left;
+   
+}
 }
