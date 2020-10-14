@@ -101,13 +101,18 @@ main h2{
 }
 
 .hero-ph{
-    width: 200px;
-    margin: 10 auto;
-    height: 150px;
+    width:100%;
+   
+}
+.hero-ph img{
+    width: 340px;
+    height: auto;
+    margin: 0 auto;
     
 }
 .hero-div{
     position: relative;
+   
     
 }
 
@@ -115,7 +120,7 @@ main h2{
     position: absolute;
     top: 40px;
     left: 20px;
-    background-color:rgb(255,99,60,0.5) 
+    background-color:rgba(60,216,255,0.3);
     
 }
     
