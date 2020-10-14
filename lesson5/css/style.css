@@ -8,16 +8,19 @@ body{
     width: 100px;
     height: auto;
 }
-h1,h2,h3{
-    font-family: 'Nanum Myeongjo', serif;
-}
-
 h1{
+    font-family: 'Nanum Myeongjo', serif;
     font-size: 1.5em;
     margin-top: 30px;
     margin-bottom: 0;
     text-align: center;
 }
+
+h2,h3{
+    font-weight: bolder;
+}
+
+   
 
 aside{
     background-color:rgb(255,99,60);
@@ -44,11 +47,12 @@ header{
 nav ul{
     list-style-type: none;
     margin-top:0;
+   
 }
 
 .navigation{
     list-style: none;
-    padding-left:15px;
+    padding-left:0;
     
 }
 #preston{
@@ -148,7 +152,7 @@ article p{
     font-size: smaller;
     line-height: 1.6;
     margin-top: 5px;
-    margin-left: 30px;
+    
 }
 .hero-div{
     position: relative;
@@ -169,6 +173,9 @@ article p{
     
 
 }
+.weather-summary p,h3{
+    margin-left: 20px;
+}
 .weather-summary span{
     color:rgb(255,99,60);
     text-shadow: 0 0 5px black;
@@ -184,6 +191,7 @@ article p{
 }
 .third-div h3{
     margin-bottom: 0;
+    margin-left: 0;
 }
 .third-div p{
     font-size: smaller;
