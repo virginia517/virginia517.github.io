@@ -37,6 +37,7 @@ header p{
 header{
     background-color: rgba(60,216,255);
     display: flex;
+    width: 100%;
 
 }
 
@@ -54,6 +55,8 @@ nav ul{
     padding: 15px;
     text-align: center;
     margin: 0;
+    padding-top:0;
+    padding-bottom: 10px;
 }
 .navigation li{
 display: none;
@@ -102,14 +105,14 @@ main h2{
 
 .hero-ph{
     width:100%;
-    background-color: green;
+    
     
    
 }
 .hero-ph img{
-    width: 340px;
+    width: 100%;
     height: auto;
-    margin-left:20px;
+    margin: 0 auto;
     
 }
 .hero-div{
@@ -119,10 +122,15 @@ main h2{
 
 .weather-summary{
     position: absolute;
-    top: 40px;
+    top: 30px;
     left: 20px;
     background-color:rgba(60,216,255,0.3);
-    border: 20px;
+    border-radius: 20px;
+    padding: 1rem;
+
+}
+.weather-summary span{
+    color:rgb(255,99,60);
 }
     
 
@@ -130,6 +138,8 @@ footer{
     background-color: rgba(60,216,255);
     font-size: smaller;
     font-weight: bold;
+    width: 100%;
+    height: auto;
 
 }
 
