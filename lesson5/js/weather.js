@@ -14,6 +14,8 @@ function toggleMenu() {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
 
+
+
 /*try {
     const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
     document.getElementById('currentdate2').textContent = new Date().toLocaleDateString('en-US', options);
@@ -49,3 +51,12 @@ const monthName = months[d.getMonth()];
 const year = d.getFullYear();
 const fulldate = dayName + ", " + monthName + " " + d.getDate() +", " + year;
 document.getElementById("currentDate").textContent = fulldate;
+
+let n= new Date();
+let dayOfWeek= n.getDay();
+if(dayOfWeek==6){
+	document.getElementsByClassName("bannerAd").style.display="block";
+}
+else{
+	document.getElementsByClassName("bannerAd").style.display="none";
+}
