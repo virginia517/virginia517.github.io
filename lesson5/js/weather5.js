@@ -1,6 +1,6 @@
 let now= new Date();
 let dayOfWeek= now.getDay();
-if(dayOfWeek==5){
+if(dayOfWeek==6){
 	document.getElementsByClassName("bannerAd").style.display="block";
 }
 else{
