@@ -99,6 +99,13 @@ main h2{
     padding-top: 10px;
     font-size: smaller;
 }
+
+.hero-ph{
+    width: 320px;
+    margin: 10 auto;
+    height: auto;
+    
+}
     
 
 footer{
