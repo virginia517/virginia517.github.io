@@ -34,7 +34,7 @@
         height: 500px;
     }
     article img{
-        margin-left: 0;
+        margin-left: 5px;
     }
     article h2{
         font-size: smaller;
@@ -53,5 +53,9 @@
     }
     .third-div p{
         font-weight: lighter;
+    }
+    .second-div h2{
+        margin-bottom: 20px;
+        font-size: smaller;
     }
 }

@@ -65,6 +65,8 @@ footer{
 
 .second-div{
     display: block;
+   
+   
 }
 
 .weather-summary{
@@ -82,5 +84,27 @@ article h2{
 }
 h2, h3{
     font-weight: bolder;
+}
+td img{
+    width: 70px;
+}
+td, th{
+    border: 1px solid rgb(211,211,211);
+    text-align: center;
+    font-size: smaller;
+    font-weight: lighter;
+   
+}
+table{
+    width:50%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px 5px rgb(211,211,211);
+}
+tr th{
+    background-color:rgba(60,216,255,0.5);
+}
+.second-div{
+    margin-bottom: 100px;
+    margin-top: 100px;
 }
 }
