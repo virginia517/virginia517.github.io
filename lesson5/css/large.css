@@ -57,5 +57,10 @@
     .second-div h2{
         margin-bottom: 20px;
         font-size: smaller;
+        font-weight: bold;
+    }
+    .weather-summary{
+        font-size: 1em;
+        text-shadow: 1px 1px black;
     }
 }

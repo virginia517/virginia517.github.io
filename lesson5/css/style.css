@@ -165,11 +165,12 @@ article p{
     top: 25%;
     left: 20px;
     width: 50%;
-    background-color:rgba(60,216,255,0.5);
+  text-shadow: black;
     border-radius: 20px;
     padding: 5px;
     font-size: smaller;
     text-align: left;
+    color:rgb(211,211,211);
     
 
 }
