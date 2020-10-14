@@ -76,7 +76,7 @@ padding: 5px;
 
 }
 .navigation a:hover{
-    background-color:rgb(255,99,60,0.5);
+    background-color:rgb(211,211,211);
     font-weight: bold;
     transition: 0.7s;
 
@@ -122,11 +122,12 @@ main h2{
 
 .weather-summary{
     position: absolute;
-    top: 30px;
-    left: 20px;
+    top: 20px;
+    left: 25px;
     background-color:rgba(60,216,255,0.3);
     border-radius: 20px;
     padding: 1rem;
+    
 
 }
 .weather-summary span{
