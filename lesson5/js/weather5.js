@@ -6,10 +6,9 @@
 }
 }*/
 
-displayMessage();
 function displayMessage(){
     let theDate = new Date();
-    if (theDate.getDay() == 4) {
+    if (theDate.getDay()==4) {
         document.querySelector(".message").style.display = "block";
     }
 }
