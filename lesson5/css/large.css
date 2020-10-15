@@ -60,7 +60,11 @@
         font-weight: bold;
     }
     .weather-summary{
-        font-size: 1em;
-        text-shadow: 1px 1px black;
+        font-size: x-large;
+        top: 10%;
+        text-shadow: 2px 2px black;
+    }
+    .weather-summary p{
+        font-size: smaller;
     }
 }
