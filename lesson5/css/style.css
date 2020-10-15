@@ -22,9 +22,9 @@ h2,h3{
 
    
 
-.bannerAd{
+.message{
     display: none;
-    background-color:rgb(255,99,60);
+    background-color: darkorange;
    
     
 }
