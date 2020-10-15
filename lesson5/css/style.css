@@ -22,7 +22,8 @@ h2,h3{
 
    
 
-aside{
+.bannerAd{
+    display: none;
     background-color:rgb(255,99,60);
    
     
