@@ -201,7 +201,7 @@ article p{
     
 
 footer{
-    background-color: rgba(60,216,255);
+    background-color: darkcyan;
     font-size: smaller;
     font-weight: bold;
     width: 100%;
@@ -243,6 +243,7 @@ footer a:hover{
 }
 
 
-a .active{
-    background-color: darkorange;
+a.active{
+    background-color: darkcyan;
+    color: white
 }

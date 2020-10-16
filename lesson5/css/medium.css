@@ -106,7 +106,7 @@ table{
     box-shadow: 5px 5px 5px 5px rgb(211,211,211);
 }
 tr th{
-    background-color:rgba(60,216,255,0.5);
+    background-color:darkcyan;
 }
 .second-div{
     margin-bottom: 100px;
