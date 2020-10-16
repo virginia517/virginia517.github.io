@@ -8,7 +8,7 @@ function displayMessage() {
 }
 }*/
 
-displayMessage();
+
 function displayMessage() {
     let theDate = new Date();
     if(theDate.getDay()==5){
