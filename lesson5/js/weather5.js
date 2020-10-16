@@ -12,6 +12,6 @@ displayMessage();
 function displayMessage() {
     let theDate = new Date();
     if(theDate.getDay()==5){
-        document.querySelector(".message").style.display = "block";
+        document.querySelector("message").style.display = "block";
     }
 }
