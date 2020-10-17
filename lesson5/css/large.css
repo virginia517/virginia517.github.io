@@ -1,70 +1,86 @@
-@media only screen and (min-width:60em){
-    .logo{
+@media only screen and (min-width:60em) {
+    .logo {
         width: 150px;
         height: auto;
     }
-    body{
+
+    body {
         font-size: 1em;
     }
-    header div{
+
+    header div {
         font-size: smaller;
     }
-    nav{
+
+    nav {
         display: flex;
         width: 100%;
         height: auto;
         justify-content: center;
     }
-    .navigation{
+
+    .navigation {
         width: 50%;
         margin: 0 auto;
         font-size: smaller;
 
     }
-    main #preston{
+
+    main #preston {
         margin-top: 20px;
         font-size: smaller;
     }
-    main{
-        width:80%;
+
+    main {
+        width: 80%;
         margin: 0 auto;
-        
+
     }
-    .hero-ph img{
+
+    .hero-ph img {
         width: 100%;
     }
-    article img{
+
+    article img {
         margin-left: 5px;
     }
-    article h2{
+
+    article h2 {
         font-size: smaller;
         font-weight: bold;
-       
+
     }
-    article p{
+
+    article p {
         font-weight: lighter;
     }
-    .third-div h3{
+
+    .third-div h3 {
         font-size: smaller;
-       
+
     }
-    .third-div{
+
+    .third-div {
         margin-top: 30px;
     }
-    .third-div p{
+
+    .third-div p {
         font-weight: lighter;
     }
-    .second-div h2{
+
+    .second-div h2 {
         margin-bottom: 20px;
         font-size: smaller;
         font-weight: bold;
     }
-    .weather-summary{
+
+    .weather-summary {
         font-size: x-large;
         top: 10%;
         text-shadow: 2px 2px black;
     }
-    .weather-summary p{
+
+    .weather-summary p {
         font-size: smaller;
     }
 }
