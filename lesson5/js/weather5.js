@@ -1,16 +1,17 @@
-/*
-function displayMessage() {
+
+displaymessage();
+function displaymessage() {
 	let now= new Date();
     let dayOfWeek= now.getDay();
     if(dayOfWeek==5){
-	document.querySelector("message").style.display="block";
+	document.querySelector(".message").style.display="block";
 }
-}*/
+}
 
-displaymessage();
+/*displaymessage();
 function displaymessage(){
     let theDate = new Date();
     if (theDate.getDay()==5){
         document.querySelector(".message").style.display = "block";
     }
-}
+}*/
