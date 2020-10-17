@@ -133,12 +133,7 @@ main h2 {
     font-size: smaller;
 }
 
-.hero-ph {
-    width: 100%;
 
-
-
-}
 
 .hero-ph img {
     width: 100%;
@@ -169,7 +164,11 @@ article p {
 
 .hero-div {
     position: relative;
+    left: 130px;
     margin-bottom: 40px;
+    width: 80%;
+    height: auto;
+    
 
 }
 
