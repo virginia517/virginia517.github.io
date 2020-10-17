@@ -20,7 +20,7 @@ h1{
 }
 
 aside{
-    display: block;
+    display: none;
     background-color:rgb(255,99,60);
    
     
