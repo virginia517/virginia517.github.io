@@ -43,7 +43,7 @@ header p {
 header {
     /* background-color: rgba(60,216,255);*/
     display: flex;
-    width: 100%;
+    justify-content: center;
 
 }
 
