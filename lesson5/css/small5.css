@@ -139,11 +139,7 @@ main h2 {
 
 }
 
-article img {
-    width: 100%;
-    height: auto;
 
-}
 
 article h2 {
     text-align: left;
@@ -159,14 +155,14 @@ article p {
 
 }
 
+
+
 .hero-div {
     position: relative;
     margin-bottom: 40px;
     width: 100%;
     height: auto;
-    
-
-}
+    }
 
 .weather-summary {
     position: absolute;
