@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Virginia Basco">
+    <meta name="description" content="The Weather Site Assignment for week 5">
+    <title>Weather Site</title>
+    <link rel="shortcut icon" href="icon_69226accfd10e108e26702d67bda2fc8.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small5.css">
+    <link rel="stylesheet" href="css/medium5.css">
+    <link rel="stylesheet" href="css/large5.css">
+</head>
+
+<body>
+    <aside class="message">
+        <p>Saturday = Preston Pancakes in the Park!<br> 9:00 a.m. Saturday at the city park pavilion</p>
+    </aside>
+    <header>
+        <img class="logo" src="images/Weather-new-resized.jpg" alt="Weather Site logo">
+        <div>
+            <h1>The Weather Site</h1>
+            <p>The weather site catch phrase/motto</p>
+        </div>
+
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="preston-5.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 id="preston">Preston Idaho</h2>
+        <div class="hero-div">
+            <div class="hero-ph"><img src="images/prestontown-pixlr.jpg" alt="umbrellas"></div>
+            <section class="weather-summary">
+                <h3>Weather Summary</h3>
+                <p>Currenty: <span>Sunny</span></p>
+                <p>High: <span>76 °F</span></p>
+                <p>Wind Chill: <span>°F</span></p>
+                <p>Humidity: <span>69%</span></p>
+                <p>Wind Speed: <span>5 mph</span></p>
+            </section>
+        </div>
+        <div class="second-div">
+            <h2>5 Day forecast</h2>
+            <table>
+                <tr>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thurs</th>
+                    <th>Fri</th>
+                </tr>
+                <tr>
+                    <td><img src="images/sun-icon-tray.jpg" alt="sun-icon">
+                        <p>78°F</p>
+                    </td>
+                    <td><img src="images/sun-icon-tray.jpg" alt="sun-icon">
+                        <p>88°F</p>
+                    </td>
+                    <td><img src="images/sun-icon-tray.jpg" alt="sun-icon">
+                        <p>90°F</p>
+                    </td>
+                    <td><img src="images/sun-icon-tray.jpg" alt="sun-icon">
+                        <p>75°F</p>
+                    </td>
+                    <td><img src="images/sun-icon-tray.jpg" alt="sun-icon">
+                        <p>72°F</p>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+
+
+        <article>
+
+            <img src="images/pexels-andrea-piacquadio2 -resized.jpg" alt="a-woman-with-a-hat">
+            <h2>Founders Day Fresco</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+                ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
+                fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
+                vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
+                elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat
+                vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,Lorem ipsum dolor sit
+                amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+        </article>
+        <div class="third-div">
+            <h3>The Weather Site</h3>
+            <p>&#x1F3E0; 31 N 1st E</p>
+            <p>Preston, ID 385745</p>
+            <p>&phone; 343-5454-4444</p>
+            <p>&#9993; WeatherSite.page</p>
+            <div class="social-icon">
+                <img src="images/fb-icon-pixlr.png" alt="tweeter icon">
+                <img src="images/instagram-icon.png" alt="instagram-icon">
+                <img src="images/tweeter-icon.png" alt="tweeter-icon">
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul class="second">
+            <li id="first"> &copy; 2020</li>
+            <li id="second">The Weather Site</li>
+            <li id="third">Virginia J. Basco</li>
+            <li id="fourth">Philippines</li>
+            <li id="fifth"><a href="https://www.byui.edu/online" target="_blank">BYUI Online
+                    Learning</a></li>
+        </ul>
+        <div id="footer-div">
+            Last Updated: <span id="currentDate"></span>
+        </div>
+    </footer>
+    <script src="js/date.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/weather5.js"></script>
+
+
+</body>
+
+</html>
