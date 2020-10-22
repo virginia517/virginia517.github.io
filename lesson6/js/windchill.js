@@ -1,4 +1,5 @@
 //displaymessage();
+windChill();
 function windChill(){
     let t= parseFloat(document.getElementById('temp').textContent);
     let w= parseFloat(document.getElementById('windSpeed').textContent);
