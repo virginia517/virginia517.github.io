@@ -1,5 +1,5 @@
 //displaymessage();
-function windchill(){
+function windChill(){
     let t= parseFloat(document.getElementById('temp').textContent);
     let w= parseFloat(document.getElementById('windSpeed').textContent);
     let output="N/A";
@@ -8,6 +8,6 @@ function windchill(){
         output="compute";
     }
     
-document.getElementsByClassName(windChill).innerHTML= output;
+document.getElementsByClassName("windChill").innerHTML= output;
     //document.querySelector(".windChill").textContent= output.toFixed()+" "+"°F";
 }
