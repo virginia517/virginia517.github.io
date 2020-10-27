@@ -11,6 +11,7 @@ const loadImages = (image) => {//moves the image path from data-src to src
     };
 };
 
+//this if statement checks if the intersection observer is supported
 if('IntersectionObserver' in window) {//intersection observer causes the image to load in the vieport only when the user scrolls down
     const observer = new IntersectionObserver((items, observer) => {
       items.forEach((item) => {
@@ -23,7 +24,7 @@ if('IntersectionObserver' in window) {//intersection observer causes the image t
     imagesToLoad.forEach((img) => {
       observer.observe(img);
     });
-  } else {
+  } else {//if not supported, load anyway
     imagesToLoad.forEach((img) => {
       loadImages(img);
     });
