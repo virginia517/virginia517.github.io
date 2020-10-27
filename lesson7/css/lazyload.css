@@ -1,6 +1,8 @@
 main{
     display: grid;
     grid-template-columns: 1fr;
-    justify-content: center;
     background-color: deepskyblue;
+}
+picture, h1{
+    justify-self: center;
 }
