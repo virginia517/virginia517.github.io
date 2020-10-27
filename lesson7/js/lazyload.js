@@ -15,7 +15,7 @@ const loadImages = (image) => {//moves the image path from data-src to src
 if('IntersectionObserver' in window) {//intersection observer causes the image to load in the vieport only when the user scrolls down
     const observer = new IntersectionObserver((items, observer) => {
       items.forEach((item) => {
-        if(item.isIntersecting) {
+        if(item.isIntersecting) {//if image is in the window, load the image
           loadImages(item.target);
           observer.unobserve(item.target);
         }
