@@ -6,3 +6,6 @@ main{
 picture, h1{
     justify-self: center;
 }
+h1{
+    text-align: center;
+}
