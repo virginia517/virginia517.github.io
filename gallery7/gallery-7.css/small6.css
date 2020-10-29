@@ -123,6 +123,9 @@ main figure img{
 main h2{
     text-align: center;
 }
+figcaption{
+    margin-bottom: 20px;
+}
 
 
 
