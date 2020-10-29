@@ -29,6 +29,15 @@
         color: rgb(255, 99, 60);
     }
 
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+    main h2{
+        grid-row: 1/2;
+    }
+
 
    
 
