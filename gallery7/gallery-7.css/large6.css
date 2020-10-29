@@ -34,6 +34,13 @@
         grid-row: 1/2;
         grid-column: 1/4;
     }
+    figure:hover{
+        box-shadow: 0 0 50px #333;
+        transition: 0.3s;
+    }
+    figcaption:hover{
+        transform: scale(1.3);
+    }
 
 
 }
