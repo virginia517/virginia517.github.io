@@ -1,4 +1,32 @@
 body{
     width:50%;
     margin: 0 auto;
+    font-family: Ubuntu, sans-serif;
+
 }
+header, footer{
+    background-color: #e7f0ed;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+tr th{
+    background-color:  #628ca6;
+}
+tr td{
+    background-color:#e7f0ed;
+}
+tr:nth-child(even){
+    background-color:#e7f0ed;
+}
+
+footer h2{
+    font-size: 0.75rem;
+}
+
