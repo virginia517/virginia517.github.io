@@ -15,11 +15,11 @@ header, footer{
 }*/
 
 table{
-    width: 400px;
+    width: 350px;
     margin: 0 auto;
     border-collapse: collapse;
     text-align: center;
-    border: 1px solid gray;
+    border: 2px solid lightgray;
     font-family: Ubuntu, sans-serif;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
     
@@ -30,16 +30,23 @@ thead{
 
 
 
-tr th{
-    background-color: #628ca6;
+table thead{
+    background-color:#7fb9c2;
+    color: black;
+    font-size: 2em;
+}
+thead th{
+    padding:15px;
+}
+tbody tr th{
     color: white;
+    background-color:#628ca6;
     padding: 10px;
-
-
 }
-tr{
-    background-color:#e7f0ed;
+tfoot tr td{
+    background-color:#7fb9c2;
 }
+
 td, th{
     border: 1px solid lightgray;
 }
@@ -47,13 +54,15 @@ tr td{
     padding:10px;
 
 }
+ tbody tr{
+    background-color: #e7ffed;
+}
+
+tr:nth-child(even){
+    background-color:#e7f0ed;
+}
 .blue{
     background-color:#628ca6;
     color:white;
 }
-
-tr:nth-child(even){
-    background-color:#e7ffed;
-}
-
 
