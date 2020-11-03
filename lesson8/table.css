@@ -18,18 +18,20 @@ table{
     
 }
 tr th{
-    background-color:  #628ca6;
+    background-color: #628ca6;
     color: white;
 }
-tr td{
+tr{
     background-color:#e7ffed;
 
 }
 .blue{
-    column-span: 2;
+    background-color:  #628ca6;
+    color:white;
 }
+
 tr:nth-child(even){
-    background-color:#e7ffed;
+    background-color:#e7f0ed;
 }
 
 footer h2{
