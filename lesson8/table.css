@@ -15,14 +15,21 @@ header, footer{
 }*/
 
 table{
-    width: 50%;
+    width: 400px;
+    margin: 0 auto;
     border-collapse: collapse;
     text-align: center;
     border: 1px solid gray;
     font-family: Ubuntu, sans-serif;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+    
+}
+thead{
+    color: black;
 }
 
-}
+
+
 tr th{
     background-color: #628ca6;
     color: white;
@@ -49,8 +56,4 @@ tr:nth-child(even){
     background-color:#e7ffed;
 }
 
-
-footer h2{
-    font-size: 0.75rem;
-}
 
