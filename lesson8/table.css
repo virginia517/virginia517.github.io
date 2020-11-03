@@ -1,22 +1,25 @@
 body{
     width:50%;
     margin: 0 auto;
-    font-family: Ubuntu, sans-serif;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
-
+    font-family: Ubuntu, sans-serif;
 }
 header, footer{
     background-color: #7fb9c2;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    
 
 }
+
 table{
     width: 100%;
     border-collapse: collapse;
     text-align: center;
     border: 1px splid gray;
+    font-family: Ubuntu, sans-serif;
 }
 tr th{
     background-color: #628ca6;
@@ -28,8 +31,8 @@ tr th{
 tr{
     background-color:#e7f0ed;
 }
-tr td{
-    border: 2px 2px solid gray;
+td, th{
+    border: 1px solid lightgray;
 }
 tr td{
     padding:10px;
