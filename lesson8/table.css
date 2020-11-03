@@ -29,6 +29,9 @@ tr{
     background-color:#e7f0ed;
 }
 tr td{
+    border: 2px 2px solid gray;
+}
+tr td{
     padding:10px;
 
 }
