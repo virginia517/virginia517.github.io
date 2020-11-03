@@ -33,7 +33,7 @@ thead{
 table thead{
     background-color:#7fb9c2;
     color: black;
-    font-size: 2em;
+    font-size: 2.3em;
 }
 thead th{
     padding:15px;
@@ -42,9 +42,12 @@ tbody tr th{
     color: white;
     background-color:#628ca6;
     padding: 10px;
+    font-size: 1.5em;
+    
 }
 tfoot tr td{
     background-color:#7fb9c2;
+    font-size: 0.75rem;
 }
 
 td, th{
