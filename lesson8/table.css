@@ -18,7 +18,7 @@ table{
     width: 100%;
     border-collapse: collapse;
     text-align: center;
-    border: 1px splid gray;
+    border: 1px solid gray;
     font-family: Ubuntu, sans-serif;
 }
 tr th{
