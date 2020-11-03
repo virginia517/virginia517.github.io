@@ -1,4 +1,4 @@
-body{
+/*body{
     width:50%;
     margin: 0 auto;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
@@ -12,14 +12,16 @@ header, footer{
     display: block;
     
 
-}
+}*/
 
 table{
-    width: 100%;
+    width: 50%;
     border-collapse: collapse;
     text-align: center;
     border: 1px solid gray;
     font-family: Ubuntu, sans-serif;
+}
+
 }
 tr th{
     background-color: #628ca6;
@@ -44,9 +46,6 @@ tr td{
 }
 
 tr:nth-child(even){
-    background-color:#e7ffed;
-}
-tfoot tr td{
     background-color:#e7ffed;
 }
 
