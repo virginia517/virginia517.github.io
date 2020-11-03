@@ -46,8 +46,8 @@ tr td{
 tr:nth-child(even){
     background-color:#e7ffed;
 }
-tfoot{
-    background-color:#e7ffed;
+table tfoot{
+    background-color: #e7f0ed;
 }
 
 
