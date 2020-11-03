@@ -46,6 +46,9 @@ tr td{
 tr:nth-child(even){
     background-color:#e7ffed;
 }
+tfoot{
+    background-color:#e7ffed;
+}
 
 
 footer h2{
