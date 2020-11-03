@@ -5,7 +5,7 @@ body{
 
 }
 header, footer{
-    background-color: #e7f0ed;
+    background-color: #7fb9c2;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -15,15 +15,21 @@ table{
     width: 100%;
     border-collapse: collapse;
     text-align: center;
+    
 }
 tr th{
     background-color:  #628ca6;
+    color: white;
 }
 tr td{
-    background-color:#e7f0ed;
+    background-color:#e7ffed;
+
+}
+.blue{
+    column-span: 2;
 }
 tr:nth-child(even){
-    background-color:#e7f0ed;
+    background-color:#e7ffed;
 }
 
 footer h2{
