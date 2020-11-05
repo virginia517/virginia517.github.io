@@ -42,16 +42,16 @@
         <fieldset>
             <legend>Contact Information</legend>
             <label class="top">Full Name*<input type="text" name="fullName" required pattern="[a-zA-Z\p{L} \.\-]{5,}"></label>
-            <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" ></label>
-            <label class="top">Phone<input type="tel" name="phone" required></label>
-            <label class="top">Zip Code<input type="number" name="zipCode" required></label>
+            <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com" ></label>
+            <label class="top">Phone*<input type="tel" name="phone" required></label>
+            <label class="top">Zip Code*<input type="number" name="zipCode" required></label>
         </fieldset>
         <fieldset>
             <legend>
                 Storm Information
             </legend>
-            <label>Storm Date<input type="date" name="stormDate"></label>
-            <label>Storm Type<input list="storm-type-list" name="stormType"></label>
+            <label class="top">Storm Date<input type="date" name="stormDate"></label>
+            <label class="top">Storm Type<input list="storm-type-list" name="stormType"></label>
             <datalist id="storm-type-list">
                 <option value="Flash Flood">
                 <option value="Hail">
@@ -59,20 +59,37 @@
                 <option value="Thunderstorm">
                 <option value="Tornado">     
             </datalist>
-            <label>Storm Severity<input type="range" name="stormSeverity" min="1" max="10" step="any"></label>
-            <label>Storm Region<input type="select" name="stormRegion">
+            <label class="top">Storm Severity<input type="range" name="stormSeverity" id="rating" min="1" max="10" step="1" list="tickmarks"
+            oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+				<span id="ratingvalue">5</span>
+			</label>
+
+			<datalist id="tickmarks">
+				<option value="0">
+				<option value="1">
+				<option value="2">
+				<option value="3">
+				<option value="4">
+				<option value="5">
+				<option value="6">
+				<option value="7">
+				<option value="8">
+				<option value="9">
+				<option value="10">
+			</datalist>
+            <label class="top">Storm Region
             <select>
-                <option value="">Select Region &#9662</option>
+                <option value="">Select Region</option>
                 <option value="preston">Preston</option>
                 <option value="sodaSpring">Soda Springs</option>
                 <option value="fishHaven">Fish Haven</option>
             </select>
-            </label>
+            </label class="side">
             <div>User in-danger level</div>
-            <label><input type="radio" name="level" value="Yes">Yes</label>
-            <label><input type="radio" name="level" value="No">No</label>
-            <label><input type="radio" name="level" value="Maybe">Maybe</label>
-            <label>Additional Information or Comments<textarea name="comments" rows="5" cols="33"></textarea></label>
+            <label class="side"><input type="radio" name="level" value="Yes">Yes</label>
+            <label class="side"><input type="radio" name="level" value="No">No</label>
+            <label class="side"><input type="radio" name="level" value="Maybe">Maybe</label>
+            <label class="top">Additional Information or Comments<textarea name="comments" rows="5" cols="33"></textarea></label>
         </fieldset>
         <input type="submit" value="Submit My Form" class="submitBtn">
        </form>
@@ -93,5 +110,6 @@
     <script src="storm.js/weather-7.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="storm.js/webfont.js"></script>
+    <script src="storm.js/storm-8.js"></script>
 </body>
 </html>
