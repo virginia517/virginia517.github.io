@@ -21,20 +21,7 @@ h3 {
 
 
 
-.message {
-    display: none;
-    background-color: darkorange;
 
-
-}
-
-aside p {
-    text-align: center;
-    color: whitesmoke;
-    margin: 0;
-    padding: 10px;
-
-}
 
 header p {
     margin-top: 0;
@@ -110,31 +97,6 @@ nav ul {
 }
 
 
-main {
-    display: block;
-}
-main figure{
-    width:100%;
-    margin: 0 auto;
-}
-main figure img{
-    width:100%;
-}
-main h2{
-    text-align: center;
-}
-figcaption{
-    margin-bottom: 20px;
-}
-
-main img[data-src]{
-    filter: blur(0.2em);
-  }
-  
-main img{
-    filter: blur(0em);
-    transition: filter 0.5s;
-  }
 
 
 
