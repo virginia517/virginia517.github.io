@@ -97,18 +97,23 @@ nav ul {
 }
 main{
     display: block;
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
+    
 }
 
 
 form fieldset{
-    margin: 2rem 0;
+    margin: 0 auto;
     border: 1px solid darkorange;
     border-radius:  10px;
     padding:  .5rem 2%;
+    width: 90%;
+    max-width: 500px;
+
+ 
     
 }
+
 form legend{
     color: darkcyan;
     text-shadow: 1px 1px gray;
@@ -133,11 +138,15 @@ form label.top,label.top, form label.top select, .dangerLevel{
     
 
 }
+.firstField{
+    margin-top: 80px;
+}
 
 input.first{
     border-radius: 5px;
     width: 100%;
     padding: .75rem;
+
 }
 .side{
     display: block;
@@ -146,6 +155,8 @@ input.first{
 }
 .secondField{
     margin-bottom: 5px;
+    margin-top:30px;
+    
 }
 
 .submitBtn{
@@ -155,7 +166,8 @@ input.first{
     font-size: 1em;
     border-radius:  1rem;
     padding: .75rem;
-    width:100%;
+    width:80%;
+    margin: 0 auto;
    
 }
  
