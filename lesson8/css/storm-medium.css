@@ -29,8 +29,8 @@
         color: rgb(255, 99, 60);
     }
 
-    .submitBtn{
-        width: 100%;
+    form.submitBtn{
+        margin-left: 300px;
         
     }
    
