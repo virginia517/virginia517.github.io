@@ -43,7 +43,7 @@
             <legend>Contact Information</legend>
             <label class="top">Full Name*<input type="text" name="fullName" class="first" required pattern="[a-zA-Z\p{L} \.\-]{5,}"></label>
             <label class="top">Email<input type="email" name="email" class="first" placeholder="someone@gmail.com" ></label>
-            <label class="top">Phone*<input type="tel" name="phone" class="first" required></label>
+            <label class="top">Phone*<input type="tel" name="phone" class="first" required pattern="[\W\d]{7,}"></label>
             <label class="top">Zip Code*<input type="number" name="zipCode" class="first" required></label>
         </fieldset>
         <fieldset class="secondField">
