@@ -127,6 +127,7 @@ form label.top,label.top, form label.top select, .dangerLevel{
     width:400px;
     border-radius: .75rem;
     padding:.75rem;
+    box-sizing: border-box;
    
     
 
@@ -135,7 +136,6 @@ form label.top,label.top, form label.top select, .dangerLevel{
 input.first{
     border-radius: 5px;
     width: 100%;
-    margin-right: 10px;
     padding: .75rem;
 }
 .side{
@@ -156,9 +156,6 @@ input.first{
     padding: .75rem;
     width:100%;
    
-}
-label input.stormDate{
-
 }
  
 
