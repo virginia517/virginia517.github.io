@@ -14,12 +14,12 @@ fetch(requestURL)
         let image= document.createElement('img');
         h2.textContent=prophets[i].name + ' ' + prophets[i].lastname;
         card.appendChild(h2);
-        h3.textContent='Date of Birth:' + prophets[i].birthdate;
+        h3.textContent='Date of Birth:' + ' ' + prophets[i].birthdate;
         card.appendChild(h3);
-        p.textContent='Place of Birth:' + prophets[i].birthplace;
+        p.textContent='Place of Birth:' + ' ' + prophets[i].birthplace;
         card.appendChild(p);
         image.setAttribute('src', prophets[i].imageurl);
-        image.setAttribute('alt', "prophet");
+        image.setAttribute('alt', prophets[i].name + prophets[i].lastname + "-" + prophets[i].order);
         card.appendChild(image);
         document.querySelector('div.cards').appendChild(card);
        }
