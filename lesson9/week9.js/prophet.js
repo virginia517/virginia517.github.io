@@ -10,8 +10,8 @@ fetch(requestURL)
         let h2= document.createElement('h2');
         h2.textContent=prophets[i].name + ' ' + prophets[i].lastname;
         card.appendChild(h2);
-        document.querySelector('div.cards').appendchild(card);
-    }
+       }
+       document.querySelector('div.cards').appendchild(card);
 });
 
 //store the results of the converted response into an array
