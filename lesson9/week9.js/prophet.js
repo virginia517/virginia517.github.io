@@ -5,15 +5,15 @@ fetch(requestURL)
 })
 .then(function (jsonObject){
     console.table(jsonObject);
+    const prophets= jsonObject['prophets'];//store the results of the converted response into an array
     for(let i=0; i<prophets.length; i++){
         let card= document.createElement('secction');
         let h2= document.createElement('h2');
+        let p= document.createElement('p');
         h2.textContent=prophets[i].name + ' ' + prophets[i].lastname;
         card.appendChild(h2);
+        p.textContent=prophets[i].date
+        document.querySelector('div.cards').appendChild(card);
        }
-       document.querySelector('div.cards').appendchild(card);
+     
 });
-
-//store the results of the converted response into an array
-const prophets= jsonObject['prophets'];
-
