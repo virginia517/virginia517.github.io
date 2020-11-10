@@ -7,9 +7,11 @@ p,h3{
 }
 
 h3{
-    font: 2em;
+    font: 0.75rem;
     font-weight: lighter;
     margin:0;
+    padding: 0;
+    
 }
 p{
     margin-top: 5px;
@@ -22,14 +24,19 @@ main section{
     text-align: center;
     margin-bottom: 10px;
 }
-
-main.cards{
+.cards{
     display: grid;
+    grid-gap: 5px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+main{
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    padding:1em;
 }
 
 img{
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5)
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    width:100%;
 }
 
 ul{
