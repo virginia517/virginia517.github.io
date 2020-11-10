@@ -23,18 +23,32 @@ main section{
     margin-bottom: 10px;
 }
 
+main.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
 img{
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5)
 }
 
 ul{
-    padding: 3em;
+    padding: 2em;
 }
 ul li{
     display: inline;
-    padding:0.75rem;
-    border-right: 3px black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-right: 1px solid black;
+    padding-right: 10px;
+    padding-left: 5px;
 }
-li{
-    border-right: 3px black;
+ul li:nth-child(3){
+    border-right: none;
+}
+
+footer{
+    border-top: 1px solid black;
+    margin-top: 2em;
+    padding: 0;
 }
