@@ -7,7 +7,7 @@ fetch(requestURL)
     console.table(jsonObject);
     const prophets= jsonObject['prophets'];//store the results of the converted response into an array
     for(let i=0; i<prophets.length; i++){
-        let card= document.createElement('secction');
+        let card= document.createElement('section');
         let h2= document.createElement('h2');
         let h3= document.createElement('h3'); 
         let p= document.createElement('p');
