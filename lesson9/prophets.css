@@ -1,7 +1,11 @@
-header,h2{
+h1,h2,ul{
     font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+p,h3{
+    font-family: 'Montserrat', sans-serif;
 }
 .cards{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(250px));
 }
