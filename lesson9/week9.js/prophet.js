@@ -9,10 +9,14 @@ fetch(requestURL)
     for(let i=0; i<prophets.length; i++){
         let card= document.createElement('secction');
         let h2= document.createElement('h2');
+        let h3= document.createElement('h3'); 
         let p= document.createElement('p');
         h2.textContent=prophets[i].name + ' ' + prophets[i].lastname;
         card.appendChild(h2);
-        p.textContent=prophets[i].date
+        h3.textContent='Date of Birth:' + prophets[i].birthdate;
+        card.appendChild(h3);
+        p.textContent='Place of Birth:' + prophets[i].birthplace;
+        card.appendChild(p);
         document.querySelector('div.cards').appendChild(card);
        }
      
