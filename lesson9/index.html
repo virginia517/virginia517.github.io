@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Virginia J. Basco">
+    <meta name="description" content="Weather Site Home Page">
+    <title>Home Page</title>
+</head>
+<body>
+    <header>
+        <picture>
+         <source srcset="images/gallerylogo150.jpg" media="(min-width:520px) and (max-width:959px)">
+         <source srcset="images/gallerylogo180.jpg" media="(min-width:960px)">
+         <img class="logo" src="images/gallerylogo100.jpg" alt="Weather Site logo">
+        </picture>
+         <div>
+             <h1>The Weather Site</h1>
+             <p>The weather site catch phrase/motto</p>
+         </div>
+ 
+     </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="/lesson6/preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a class="active" href="stormcenter.html">Storm Center</a></li>
+            <li><a href="/gallery7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <footer>
+        <ul class="second">
+            <li id="first"> &copy; 2020</li>
+            <li id="second">The Weather Site</li>
+            <li id="third">Virginia J. Basco</li>
+            <li id="fourth">Philippines</li>
+            <li id="fifth"><a href="https://www.byui.edu/online" target="_blank">BYUI Online
+                    Learning</a></li>
+        </ul>
+        <div id="footer-div">
+            Last Updated: <span id="currentDate"></span>
+        </div>
+    </footer>
+</body>
+</html>
