@@ -5,7 +5,7 @@ fetch(requestURL)
 })
 .then(function (jsonObject){
     console.table(jsonObject);
-    const prophets= jsonObject['prophets'];//store the results of the converted response into an array
+    const towns= jsonObject['towns'];//store the results of the converted response into an array
    
 });
 
