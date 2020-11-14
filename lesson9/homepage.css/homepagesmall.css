@@ -225,7 +225,7 @@ footer a:hover {
 
 #second,
 #third,
-#fourth {
+#fourth, #fifth{
     border-right: 1px solid black;
     padding-right: 3px;
 }
