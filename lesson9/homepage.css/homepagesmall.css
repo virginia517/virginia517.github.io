@@ -136,9 +136,24 @@ footer {
     grid-template-columns: 1fr;
     text-align: center;
 }
+.townsect img{
+    justify-self: center;
+}
 
  article{
-     padding: 2em;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr;
+     
+ }
+ article img{
+     grid-column: 1/2;
+    
+     align-self: end;
+ }
+ article p{
+     grid-column: 2/3;
+    
  }
 
  
