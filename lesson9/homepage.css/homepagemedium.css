@@ -36,10 +36,9 @@
     }
     .townsect{
         display: grid;
-        grid-template-columns: ;
+        grid-template-columns:1fr 1fr;
     }
-   
-
+  
     
 
     header h1 {
