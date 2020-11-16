@@ -131,6 +131,18 @@ footer {
     display: inline;
 }
 
+.home{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+
+
+
+
+
+
 footer a {
     text-decoration: none;
     color: black;

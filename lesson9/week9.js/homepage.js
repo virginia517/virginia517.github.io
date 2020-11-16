@@ -10,11 +10,11 @@ fetch(requestUrl)
         if(towns[i].name=="Preston" || towns[i].name=="Fish Haven" || towns[i].name=="Soda Springs"){
             let card = document.createElement('section');
             let info = document.createElement('section');
-            let h2 = document.createElement('h2');
-            let motto = document.createElement('p');
-            let founded = document.createElement('p');
-            let population = document.createElement('p');
-            let rainfall = document.createElement('p');
+            let h1 = document.createElement('h1');
+            let p1 = document.createElement('p');
+            let p2 = document.createElement('p');
+            let p3 = document.createElement('p');
+            let p4 = document.createElement('p');
             let image = document.createElement('img');
             
             card.appendChild(info);
@@ -23,24 +23,24 @@ fetch(requestUrl)
 
             info.setAttribute('class', 'info');
 
-            h2.textContent = towns[i].name;
-            info.appendChild(h2);
+            h1.textContent = towns[i].name;
+            info.appendChild(h1);
 
-            motto.textContent = towns[i].motto;
-            info.appendChild(motto);
+            p1.textContent = towns[i].motto;
+            info.appendChild(p1);
 
-            founded.textContent = 'Year Founded: ' + towns[i].yearFounded;
-            info.appendChild(founded);
+            p2.textContent = 'Year Founded: ' + towns[i].yearFounded;
+            info.appendChild(p2);
 
-            population.textContent = 'Population: ' + towns[i].currentPopulation;
-            info.appendChild(population);
+            p3.textContent = 'Population: ' + towns[i].currentPopulation;
+            info.appendChild(p3);
 
-            rainfall.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
-            info.appendChild(rainfall);
+            p4.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
+            info.appendChild(p4);
             
             image.setAttribute('class', 'townimg');
             image.setAttribute('src', 'images/' + towns[i].photo);
-            image.setAttribute('alt', 'Image of ' + towns[i].name);
+            image.setAttribute('alt', towns[i].name);
             card.appendChild(image);
           
             document.querySelector('div.home').appendChild(card);
