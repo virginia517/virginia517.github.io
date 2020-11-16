@@ -29,7 +29,15 @@
         color: rgb(255, 99, 60);
     }
 
-    
+    .home{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .townsect{
+        display: grid;
+        grid-template-columns: ;
+    }
    
 
     

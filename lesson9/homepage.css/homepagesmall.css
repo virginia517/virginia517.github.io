@@ -95,11 +95,7 @@ nav ul {
 .responsive li {
     display: block;
 }
-main{
-    display: block;
-    width: 100%;
-    
-}
+
 
 
 
@@ -140,21 +136,7 @@ footer {
     justify-self: center;
 }
 
- article{
-     display: grid;
-     grid-template-columns: 1fr 1fr;
-     grid-template-rows: 1fr;
-     
- }
- article img{
-     grid-column: 1/2;
-    
-     align-self: end;
- }
- article p{
-     grid-column: 2/3;
-    
- }
+ 
 
  
 
