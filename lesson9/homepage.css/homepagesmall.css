@@ -131,13 +131,17 @@ footer {
     display: inline;
 }
 
-.home{
+.townsect{
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
 }
 
+ article{
+     padding: 2em;
+ }
 
+ 
 
 
 
