@@ -28,20 +28,16 @@
         
     }
     .townsect{
-        background-color: hotpink;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
     }
  
-    .info{
-        display: grid;
-        grid-auto-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-    .info img{
-        grid-row: 2/3;
-    }
+   .townsect:nth-child(2) img{
+       grid-template-rows: 2/3;
+   }
+    
+   
     
 
    
