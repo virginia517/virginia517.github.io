@@ -3,5 +3,7 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
-    
+    document.getElementById('temp').textContent = jsObject.main.temp;
+
+
   });
