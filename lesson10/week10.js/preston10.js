@@ -14,6 +14,7 @@ fetch(apiUrl)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
-   const days= ['Mon','Tue','Wed', 'Thurs', 'Fri'];
+    
+   //const days= ['Mon','Tue','Wed', 'Thurs', 'Fri'];
    
   });
