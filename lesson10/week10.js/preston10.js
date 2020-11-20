@@ -24,7 +24,9 @@ fetch(apiUrl)
     const imagesrc = 'https://openweathermap.org/img/f/' + jsObject.weather[0].icon + 'png'; 
     document.getElementById('trayDay').textContent= days[d.getDay()];
     document.getElementsByClassName('dayTemp').textContent= forecast.main.temp;
-    document.getElementById('icon').setAttribute('src', imagesrc);
+    document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
+    document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
+    document.getElementById('icon').setAttribute('alt', desc);
   }
    
   });
