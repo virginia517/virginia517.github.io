@@ -13,8 +13,18 @@ fetch(apiUrl)
   fetch(apUrl)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
+   //console.log(jsObject);
     
-   //const days= ['Mon','Tue','Wed', 'Thurs', 'Fri'];
+   
+   const forecast= jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
+   console.log(forecast);
+   const days= ['Mon','Tues','Wed', 'Thurs', 'Fri'];
+   for(let day=0; day<forecast.length;day++){
+    const d= new Date(forecast);
+    const imagesrc = 'https://openweathermap.org/img/f/' + jsObject.weather[0].icon + 'png'; 
+    document.getElementById('trayDay').textContent= days[d.getDay()];
+    document.getElementsByClassName('dayTemp').textContent= forecast.main.temp;
+    document.getElementById('icon').setAttribute('src', imagesrc);
+  }
    
   });

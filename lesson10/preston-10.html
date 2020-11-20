@@ -30,12 +30,12 @@
     <nav>
         <ul class="navigation">
             <li><a class="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="/lesson9/index.html">Home</a></li>
             <li><a class="active" href="preston-10.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
-            <li><a href="#">Storm Center</a></li>
-            <li><a href="#">Gallery</a></li>
+            <li><a href="/lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="/gallery7/gallery-7.html">Gallery</a></li>
         </ul>
     </nav>
     <main>
@@ -44,9 +44,9 @@
             <div class="hero-ph"><img src="images/prestontown-pixlr.jpg" alt="umbrellas"></div>
             <section class="weather-summary">
                 <h3>Weather Summary</h3>
-                <p>Currenty: <span id="description">Sunny</span></p>
+                <p>Currenty: <span id="condition">Sunny</span></p>
                 <p>High: <span id="temp">76 °F</span></p>
-                <p>Wind Chill: <span id="windChill">°F</span></p>
+                <p>Wind Chill: <span class="windChill">°F</span></p>
                 <p>Humidity: <span id="humid">69%</span></p>
                 <p>Wind Speed: <span id="windSpeed">5 mph</span></p>
             </section>
@@ -54,28 +54,28 @@
         <div class="second-div">
             <h2>5 Day forecast</h2>
             <table>
-                <tr>
+                <tr id="trayDay">
                     <th>Mon</th>
                     <th>Tue</th>
                     <th>Wed</th>
                     <th>Thurs</th>
                     <th>Fri</th>
                 </tr>
-                <tr>
-                    <td><img src="images/sun-icon-tray.jpg" alt="sun-icon">
-                        <p>78°F</p>
+                <tr id="trayIcon">
+                    <td><span id="imagesrc"></span><img src="" alt="sun-icon" id="icon">
+                        <p class="dayTemp">78°F</p>
                     </td>
-                    <td><img src="images/sun-icon-tray.jpg" alt="sun-icon">
-                        <p>88°F</p>
+                    <td><span id="imagesrc"></span><img src="" alt="sun-icon" id="icon">
+                        <p class="dayTemp">88°F</p>
                     </td>
-                    <td><img src="images/sun-icon-tray.jpg" alt="sun-icon">
-                        <p>90°F</p>
+                    <td><span id="imagesrc"></span><img src="" alt="sun-icon" id="icon">
+                        <p class="dayTemp">90°F</p>
                     </td>
-                    <td><img src="images/sun-icon-tray.jpg" alt="sun-icon">
-                        <p>75°F</p>
+                    <td><span id="imagesrc"></span><img src="" alt="sun-icon" id="icon">
+                        <p class="dayTemp">75°F</p>
                     </td>
-                    <td><img src="images/sun-icon-tray.jpg" alt="sun-icon">
-                        <p>72°F</p>
+                    <td><span id="imagesrc"></span><img src="" alt="sun-icon" id="icon">
+                        <p class="dayTemp">72°F</p>
                     </td>
                 </tr>
 
