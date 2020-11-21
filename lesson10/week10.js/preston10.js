@@ -13,20 +13,32 @@ fetch(apiUrl)
   fetch(apUrl)
   .then((response) => response.json())
   .then((jsObject) => {
-   //console.log(jsObject);
+  // console.log(jsObject);
     
    
    const forecast= jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
    console.log(forecast);
-   const days= ['Mon','Tues','Wed', 'Thurs', 'Fri'];
-   for(let day=0; day<forecast.length;day++){
-    const d= new Date(forecast);
-    const imagesrc = 'https://openweathermap.org/img/f/' + jsObject.weather[0].icon + 'png'; 
-    document.getElementById('trayDay').textContent= days[d.getDay()];
+  
+   let weekDay= new Array(7);
+   weekDay[0]="Sun";
+   weekDay[1]="Mon";
+   weekDay[2]="Tues";
+   weekDay[3]="Wed";
+   weekDay[4]="Thurs";
+   weekDay[5]="Fri";
+   weekDay[6]="Sat";
+   var x=1;
+
+   for(i = 0; i < jsObject.list.length; i++){
+    var myTime = jsObject.list[i].dt_txt.substring(11); 
+    let date = new Date(jsObject.list[i].dt * 1000);
+    let weather = weekDay[date.getDay()];
+    if(myTime == '18:00:00' && x<=5 ) {
+       document.getElementById('tray' + x).textContent = weather;
+       document.getElementById('forecast' + x).textContent = Math.ceil(jsObject.list[i].main.temp)+ '°F';
+      
     document.getElementsByClassName('dayTemp').textContent= forecast.main.temp;
-    document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
-    document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-    document.getElementById('icon').setAttribute('alt', desc);
-  }
-   
+    }
+  
+   }
   });
