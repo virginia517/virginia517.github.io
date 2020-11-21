@@ -137,6 +137,11 @@ main h2 {
     height: auto;
     margin: 0 auto;
 
+
+}
+picture img{
+    width: 100%;
+    margin: 0 auto;
 }
 
 
