@@ -30,15 +30,23 @@ fetch(apiUrl)
    var x=1;
 
    for(i = 0; i < jsObject.list.length; i++){
+   
     var myTime = jsObject.list[i].dt_txt.substring(11); 
     let date = new Date(jsObject.list[i].dt * 1000);
     let weather = weekDay[date.getDay()];
     if(myTime == '18:00:00' && x<=5 ) {
        document.getElementById('tray' + x).textContent = weather;
-       document.getElementById('forecast' + x).textContent = Math.ceil(jsObject.list[i].main.temp)+ '°F';
       
-    document.getElementsByClassName('dayTemp').textContent= forecast.main.temp;
-    }
+       document.getElementById('dayTemp' + x).textContent = Math.ceil(jsObject.list[i].main.temp);
+
+       const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[i].weather[0].icon + '.png';
+       const desc = jsObject.list[i].weather[0].description;
+       document.getElementById('icon' + x).setAttribute('src', imagesrc);
+       document.getElementById('icon' + x).setAttribute('alt',desc);
+       x++;
+          
+        
+  }
   
    }
   });
