@@ -177,9 +177,10 @@ article p {
     text-shadow: 2px 2px black;
     border-radius: 20px;
     padding: 5px;
-    font-size: smaller;
+    font-size: 0.75rem;
     text-align: left;
     color: rgb(211, 211, 211);
+    background-color: rgb(211,211,211,0.5);
 
 
 }
