@@ -1,0 +1,35 @@
+@media only screen and (min-width:60em) {
+    
+
+    body {
+        font-size: 1em;
+    }
+
+    header div {
+        font-size: smaller;
+    }
+
+    nav {
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
+
+    .navigation {
+        width: 50%;
+        margin: 0 auto;
+        font-size: smaller;
+
+    }
+
+
+   .submitBtn{
+       margin-left:400px;
+
+   }
+   
+  
+
+
+}
