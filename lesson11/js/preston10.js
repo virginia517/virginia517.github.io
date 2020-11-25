@@ -61,16 +61,16 @@ fetch(apiUrl)
     console.log(jsObject);
     const towns= jsObject['towns'];
 
-    console.log(towns[0].events);
+    console.log(towns[0].events[1]);
     
-    for(let i=0;i<towns.listlength;i++){
- if(towns[i].name="Preston"){
+    //for(let i=0;i<towns.listlength;i++){
+ /*(if(towns.name="Preston"){
     
       let sect = document.createElement('section');
       let p1 = document.createElement('p');
-      p1.textContent=towns[i].events[0];
+      p1.textContent=towns[0].events[0];
       sect.appendChild('p1');
       document.querySelector('section.townEvents').appendChild(sect);
-    }
-    }
+    }*/
+   // }
   });
