@@ -139,14 +139,11 @@ footer {
 }
 
 
-article img{
-    float: right;
-    width: 100%;
-}
- .artImg{
-     width: 300px;
- }
 
+ 
+article img{
+    margin: 0 auto;
+}
  
 
 

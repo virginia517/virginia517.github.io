@@ -46,13 +46,17 @@
         grid-row: 1/2;
     }
 
-    article{
+    /*article{
         display: grid;
         grid-template-columns: 1fr 1fr;
         
+    }*/
+ 
+    article img {
+        float: right;
+        margin-left: 10px;
     }
-  
-    
+
 
     header h1 {
         font-size: 2em;
