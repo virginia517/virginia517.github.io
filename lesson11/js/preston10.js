@@ -59,7 +59,14 @@ fetch(apiUrl)
   .then((jsObject) => {
     console.log(jsObject);
     const event= jsonObject['towns'];
-    for(let i=0; i<towns.length; i++){
-      
+    
+      if(event[i].name="Preston"){
+        for(let i=0; i<events.length; i++){
+      let sect = document.createElement('section');
+      let p1 = document.createElement('p');
+      p1.textContent=event[i].events[0];
+      sect.appendChild('p1');
+      document.querySelector('section.townEvents').appendChild(sect);
+   }
     }
   });
