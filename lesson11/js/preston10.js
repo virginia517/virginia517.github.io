@@ -64,13 +64,13 @@ fetch(apiUrl)
     console.log(towns[0].events[1]);
     
     //for(let i=0;i<towns.listlength;i++){
- /*(if(towns.name="Preston"){
+ /*if(towns.name="Preston"){
     
       let sect = document.createElement('section');
       let p1 = document.createElement('p');
       p1.textContent=towns[0].events[0];
       sect.appendChild('p1');
       document.querySelector('section.townEvents').appendChild(sect);
-    }*/
-   // }
+    }
+   }*/
   });
