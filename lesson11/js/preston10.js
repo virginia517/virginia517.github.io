@@ -4,7 +4,7 @@ const apUrl = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=
 fetch(apiUrl)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
+   // console.log(jsObject);
     document.getElementById('condition').textContent = jsObject.weather[0].description;
     document.getElementById('temp').textContent=jsObject.main.temp;
     document.getElementById('humid').textContent=jsObject.main.humidity;
@@ -18,7 +18,7 @@ fetch(apiUrl)
     
    
    const forecast= jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
-   console.log(forecast);
+   //console.log(forecast);
   
    let weekDay= new Array(7);
    weekDay[0]="Sun";
