@@ -96,7 +96,9 @@ nav ul {
     display: block;
 }
 
-
+article p{
+    padding: 0.75rem;
+}
 
 
 
@@ -137,8 +139,13 @@ footer {
 }
 
 
-
- 
+article img{
+    float: right;
+    width: 100%;
+}
+ .artImg{
+     width: 300px;
+ }
 
  
 
