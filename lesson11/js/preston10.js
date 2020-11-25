@@ -58,5 +58,8 @@ fetch(apiUrl)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
-    
+    const event= jsonObject['towns'];
+    for(let i=0; i<towns.length; i++){
+      
+    }
   });
