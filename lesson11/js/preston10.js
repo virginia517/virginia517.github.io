@@ -61,19 +61,9 @@ fetch(apiUrl)
     console.log(jsObject);
     const towns= jsObject['towns'];
 
-    console.log(towns[1].events[1]);
-    console.log(towns[0].events[0]);
+   // console.log(towns[1].events[1]);
+   // console.log(towns[0].events[0]);
     
-    
-    //for(let i=0;i<towns.listlength;i++){
- //if(towns.name="Preston"){
-       
-     /* let sect = document.createElement('section');
-      let p1 = document.createElement('p');
-      p1.textContent=towns[0].events[0];
-      sect.appendChild('p1');
-      document.getElementById('townEvents').appendChild(sect);*/
-   // }
    document.getElementById('p1').textContent=jsObject.towns[5].events[0];
    document.getElementById('p2').textContent=jsObject.towns[5].events[1];
    document.getElementById('p3').textContent=jsObject.towns[5].events[2];
