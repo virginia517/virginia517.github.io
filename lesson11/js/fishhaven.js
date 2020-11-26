@@ -59,7 +59,7 @@ fetch(apiUrl)
     console.log(jsObject);
     const towns= jsObject['towns'];
 
-   // console.log(towns[1].events[1]);
+    console.log(towns[1].events[1]);
    // console.log(towns[0].events[0]);
     
    document.getElementById('p1').textContent=jsObject.towns[1].events[0];
