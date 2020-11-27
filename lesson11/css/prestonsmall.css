@@ -277,6 +277,13 @@ a.active {
     background-color:darkorange;
     padding: 0.75rem;
     text-align: center;
-    width:50%;
+    width:100%;
     
+}
+
+   
+
+
+.townEvents p{
+    margin: 10px;
 }
