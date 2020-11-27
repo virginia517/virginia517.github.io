@@ -44,10 +44,16 @@
     }
 
     article h2 {
-        font-size: smaller;
+        font-size: 1.5em;
         font-weight: bold;
 
+
     }
+    article h3{
+        font-size: 1em;
+        margin-left: 0;
+    }
+    
 
     article p {
         font-weight: lighter;
