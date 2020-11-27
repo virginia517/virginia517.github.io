@@ -179,3 +179,7 @@ a.active {
     background-color: darkcyan;
     color: white
 }
+main h2{
+    text-align: left;
+    margin: 15 0 5 0;
+}
