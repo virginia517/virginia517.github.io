@@ -29,8 +29,65 @@
                 <li><a href="#">Contact</a></li>
             </ul>
     </nav>
-    <main></main>
-    <footer></footer>
+    <main>
+        <picture>
+            <source srcset="images/cozumelIsland600.jpg" media="(min-width:520px) and (max-width:959px)">
+            <source srcset="images/cozumelIsland900.jpg" media="(min-width:960px)">
+            <img class="logo" src="images/cozumelIsland300.jpg" alt="Scoots-logo">
+        </picture>
+        <section class="weather-information">
+            <h2>Weather Information</h2>
+            <p>Currenty: <span id="condition"></span></p>
+            <p>High: <span id="temp"></span></p>
+            <p>Wind Chill: <span class="windChill"></span></p>
+            <p>Humidity: <span id="humid"></span></p>
+            <p>Wind Speed: <span id="windSpeed"></span></p>
+        </section>
+        <div>
+            <h2>
+                Three Day Forecast
+            </h2>
+            <table>
+                <tr id="trayDay">
+                    <th><span id="tray1"></span></th>
+                    <th><span id="tray2"></span></th>
+                    <th><span id="tray3"></span></th>
+                </tr>
+                <tr id="trayTemp">
+                    <td>
+                        <p><span id="dayTemp1"></span>°F</p>
+                    </td>
+                    <td>
+                        <p><span id="dayTemp2"></span>°F</p>
+                    </td>
+                    <td>
+                        <p><span id="dayTemp3"></span>°F</p>
+                    </td>
+                </tr>
+        </div>
+        <section>
+            <h2>We Offer:</h2>
+            <p>Honda Motor Scooters</p>
+            <p>ATV side-by-side</p>
+            <p>Jeep Rentals</p>
+        </section>
+        <section>
+            <h2>Contact Us!</h2>
+            <p>&#x1F3E0; 26 St Cozumel, Mexico</p>
+            <p>&phone; 223-334-333</p>
+            <p>&#9993; Scoots@gmail.com</p>
+        </section>
+    </main>
+    <footer>
+        <ul class="foot-ul">
+            <li>&copy; 2020 Scoots.com</li>
+            <li>Virginia J. Basco</li>
+            <li>Philippines</li>
+        </ul>
+        <div id="foot-div">
+            Last Updated: <span id="currentDate"></span>
+        </div>
+    </footer>
     <script src="js/index.js"></script>
 </body>
 </html>
