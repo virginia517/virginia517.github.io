@@ -31,10 +31,3 @@ const year = d.getFullYear();
 const fulldate = dayName + ", " + monthName + " " + d.getDate() +", " + year;
 document.getElementById("currentDate").textContent = fulldate;
 
-WebFont.load({
-    google: {
-      families: [
-        'Raleway' ,  'Fugaz One'
-      ]
-    }
-  });
