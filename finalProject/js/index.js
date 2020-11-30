@@ -34,7 +34,7 @@ document.getElementById("currentDate").textContent = fulldate;
 WebFont.load({
     google: {
       families: [
-        'Raleway' , 'PT Serif'
+        'Raleway' ,  'Fugaz One'
       ]
     }
   });
