@@ -50,3 +50,10 @@ nav ul {
 .responsive li {
     display: block;
 }
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+h1, h2{
+    font-family: 'PT Serif', serif;
+}
