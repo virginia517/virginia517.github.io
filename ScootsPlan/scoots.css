@@ -11,3 +11,6 @@ main{
 ul{
     margin-top: 0;
 }
+img{
+    display: block;
+}
