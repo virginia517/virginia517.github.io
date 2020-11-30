@@ -18,6 +18,7 @@ nav ul {
 
 .navigation li:first-child {
     display: block;
+    
 
 }
 
@@ -26,9 +27,11 @@ nav ul {
     color: black;
     text-decoration: none;
     padding: 0.75rem;
-    text-align: center;
+    text-align: left;
     padding-left: 0;
     padding-right: 0;
+    padding-bottom: 5px;
+    
 
 }
 
@@ -57,3 +60,34 @@ body{
 h1, h2{
    font-family: 'Fugaz One', cursive;
 }
+.hero{
+    width: 100%;
+}
+.first{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr;
+}
+.navMenu{
+    align-self: end;
+}
+.hero{
+    position: relative;
+   
+}
+.heroImg{
+    width: 100%;
+}
+.note{
+    position: absolute;
+    top: 200px;
+    left: 10px;
+}
+button{
+    position: absolute;
+    top: 350px;
+    left: 150px;
+}
+
+
+

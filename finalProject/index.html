@@ -14,6 +14,7 @@
     <title>Scoots Home Page</title>
 </head>
 <body>
+    <div class="first">
     <header>
         <picture>
             <source srcset="images/scootlogo150.png" media="(min-width:520px) and (max-width:959px)">
@@ -21,7 +22,7 @@
             <img class="logo" src="images/scootlogo100.png" alt="Scoots-logo">
         </picture>
     </header>
-        <nav>
+        <nav class="navMenu">
             <ul class="navigation">
                 <li><a class="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
                 <li><a class="active" href="index.html">Home</a></li>
@@ -31,12 +32,17 @@
                 <li><a href="#">Contact</a></li>
             </ul>
     </nav>
+</div>
     <main>
-        <picture>
+        <div class="second">
+        <picture class="hero">
             <source srcset="images/cozumelIsland600.jpg" media="(min-width:520px) and (max-width:959px)">
             <source srcset="images/cozumelIsland900.jpg" media="(min-width:960px)">
-            <img class="logo" src="images/cozumelIsland300.jpg" alt="Scoots-logo">
+            <img class="heroImg" src="images/cozumelIsland300.jpg" alt="Scoots-logo">
         </picture>
+        <h2 class="note">Be safe and have fun</h2>
+        <button onclick="reserve()">Reserve Now!</button>
+    </div>
         <section class="weather-information">
             <h2>Weather Information</h2>
             <p>Currenty: <span id="condition"></span></p>
