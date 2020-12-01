@@ -85,6 +85,7 @@ h1, h2{
     font-family: 'Fugaz One', cursive;
     font-size: 2em;
     color:rgb(255, 38, 63);
+  
     
 
 }
@@ -96,6 +97,10 @@ button{
     background-color:rgb(38, 255, 230);
     color:rgb(255, 38, 63);
     font-weight: bold;
+}
+.weather-information{
+    display: block;
+    border: 2px; 
 }
 
 
