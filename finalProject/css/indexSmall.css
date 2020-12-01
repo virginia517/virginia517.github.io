@@ -129,6 +129,7 @@ footer{
     padding: 1em;
     font-weight: bold;
     font-size: 0.75rem;
+   
 }
 .foot-ul li:nth-child(2), .foot-ul li:nth-child(1){
     border-right: 2px solid black;
