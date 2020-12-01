@@ -32,11 +32,10 @@
     .navigation li:first-child {
         display: none;
     }
-    .first{
-        display: grid;
-        grid-template-columns: auto 1fr;
-    }
-   
+    
+   header img{
+       grid-column: 1/2;
+   }
     
    footer{
     width: 100%;
