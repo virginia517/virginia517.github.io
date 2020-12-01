@@ -37,9 +37,10 @@ nav ul {
 
 
 .navigation a:hover {
-    background-color: rgb(211, 211, 211);
+    background-color:rgb(38, 255, 230);
     font-weight: bold;
     transition: 0.7s;
+    padding-left: 15px;
 
 }
 
@@ -63,6 +64,7 @@ body{
 }
 h1, h2{
    font-family: 'Fugaz One', cursive;
+   
 }
 .hero{
     width: 100%;
