@@ -80,13 +80,22 @@ h1, h2{
 }
 .note{
     position: absolute;
-    top: 200px;
+    top: 150px;
     left: 10px;
+    font-family: 'Fugaz One', cursive;
+    font-size: 2em;
+    color:rgb(255, 38, 63);
+    
+
 }
+
 button{
     position: absolute;
-    top: 350px;
-    left: 150px;
+    top: 300px;
+    left: 10px;
+    background-color:rgb(38, 255, 230);
+    color:rgb(255, 38, 63);
+    font-weight: bold;
 }
 
 
