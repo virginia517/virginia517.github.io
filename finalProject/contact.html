@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Virginia J. Basco">
+    <meta name="description" content="Tours Page">
+    <link rel="stylesheet" href="css/toursNormalize.css">
+    <link rel="stylesheet" href="css/toursSmall.css">
+    <link rel="stylesheet" href="css/toursMedium.css">
+    <link rel="stylesheet" href="css/toursLarge.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+    <title>Tours Page</title>
+</head>
+<body>
+    <div class="first">
+        <header>
+            <picture>
+                <source srcset="images/scootlogomedium.png" media="(min-width:520px) and (max-width:959px)">
+                <source srcset="images/scootlogolarge.png" media="(min-width:960px)">
+                <img class="logo" src="images/scootlogosmall.png" alt="Scoots-logo">
+            </picture>
+        </header>
+            <nav class="navMenu">
+                <ul class="navigation">
+                    <li><a class="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="/finalProject/index.html">Home</a></li>
+                    <li><a  href="/finalProject/rentals.html">Rentals</a></li>
+                    <li><a  href="/finalProject/reservation.html">Reservation</a></li>
+                    <li><a class="active" href="tours.html">Tours</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+        </nav>
+    </div>
+
+        <main>
+        
+        </main>
+        <footer>
+            <ul class="foot-ul">
+                <li>&copy; 2020 Scoots.com</li>
+                <li>Virginia J. Basco</li>
+                <li>Philippines</li>
+            </ul>
+            <div id="foot-div">
+                Last Updated: <span id="currentDate"></span>
+            </div>
+        </footer>
+   
+        <script src="js/tours.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="js/tourswebfont.js"></script>
+    </body>
+</body>
+</html>
