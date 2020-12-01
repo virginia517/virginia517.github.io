@@ -27,6 +27,12 @@
         
         
     }
+    .first{
+        position: absolute;
+        top: 0;
+       
+       
+    }
 
     .navigation li:first-child {
         display: none;
@@ -36,6 +42,7 @@
     
    footer{
     width: 100%;
+    display: block;
    }
 
 
