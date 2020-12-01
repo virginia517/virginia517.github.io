@@ -19,5 +19,49 @@
             "halfday":35,
             "fullday":45
         }
+    },
+    {
+        "name" : "PCX150",
+        "reservation":{
+            "fullday" : 40,
+            "halfday" : 50}
+        ,
+        "walk in":{
+            "halfday":45,
+            "fullday":55
+        }
+    },
+    {
+        "name" : "Pioneer",
+        "reservation":{
+            "fullday" : 70,
+            "halfday" : 50}
+        ,
+        "walk in":{
+            "halfday":80,
+            "fullday":60
+        }
+    },
+    {
+        "name" : "Wrangler",
+        "reservation":{
+            "fullday" : 100,
+            "halfday" : 70}
+        ,
+        "walk in":{
+            "halfday":85,
+            "fullday":125
+        }
+    },
+    {
+        "name" : "Jeep",
+        "reservation":{
+            "fullday" : 85,
+            "halfday" : 60}
+        ,
+        "walk in":{
+            "halfday":70,
+            "fullday":90
+        }
     }
 ]
