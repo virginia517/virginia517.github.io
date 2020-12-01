@@ -61,61 +61,15 @@ h1, h2{
    font-family: 'Fugaz One', cursive;
    
 }
-.hero{
-    width: 100%;
-}
-.first{
-    display: grid;
-    grid-template-columns: auto 1fr;
-    grid-template-rows: auto;
-}
 
 .navMenu{
     align-self: end;
     
 }
-.hero{
-    position: relative;
-   
-}
-.heroImg{
-    width: 100%;
-}
-.second{
-    position: relative;
-    height: auto;
-}
 
-.paragraph{
-    position: absolute;
-    margin: 0;
-    top: 30px;
-    left: 10px;
-    font-family: 'Fugaz One', cursive;
-    color:rgb(255, 38, 63);
-    font-size: 1.5em;
-}
 
-.paragraph p{
-    line-height: 1.5em;
-    margin-bottom: 0;
-}
 
-button{
-    position: absolute;
-    left: 3px;
-    top: 120px;
-    background-color:rgb(38, 255, 230);
-    color:rgb(255, 38, 63);
-    font-weight: bold;
-}
-.weather-information, .day-forecast, .offered, .contact-us, .social-media{
-    display: block;
-    padding-left:10px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border: 3px solid rgb(38, 255, 230);   
-}
+<!--Footer-->
 .foot-ul li{
     display: inline;
 
@@ -139,9 +93,7 @@ footer{
     padding: 0;
     margin-left: 3px;
 }
-.medium-img{
-    display: none;
-}
+
 .active{
     background-color:rgb(38, 255, 230);
 

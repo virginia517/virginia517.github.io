@@ -1,0 +1,38 @@
+@media only screen and (min-width:32.5em) {
+    .navigation {
+        display: flex;
+        padding-left: 0;
+        background-color: rgb(38, 255, 230,0.3);
+        margin-bottom: 23px;
+    }
+    .navigation a:hover{
+        padding:10;
+        background-color: rgb(38, 255, 230, 0);
+        color: white;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+        font-weight: bold;
+        color: rgb(38, 255, 230);
+      
+    }
+
+    .navigation a {
+        text-align: center;
+       
+        
+        
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+    
+   footer{
+    width: 100%;
+   }
+
+
+   }
