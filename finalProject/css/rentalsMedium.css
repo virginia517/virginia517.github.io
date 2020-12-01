@@ -27,17 +27,15 @@
         
         
     }
-    .first{
-        position: absolute;
-        top: 0;
-       
-       
-    }
+   
 
     .navigation li:first-child {
         display: none;
     }
-    
+    .first{
+        display: grid;
+        grid-template-columns: auto 1fr;
+    }
    
     
    footer{
