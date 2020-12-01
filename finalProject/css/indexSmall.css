@@ -142,6 +142,10 @@ footer{
 .medium-img{
     display: none;
 }
+.active{
+    background-color:rgb(38, 255, 230);
+
+}
 
 
 
