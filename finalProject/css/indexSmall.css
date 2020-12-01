@@ -6,8 +6,7 @@ nav ul {
 
 .navigation {
     list-style: none;
-    padding-left: 0;
-
+    padding-left: 10px;
 }
 .navigation li {
     display: none;
@@ -26,10 +25,11 @@ nav ul {
     display: block;
     color: black;
     text-decoration: none;
-    padding: 0.75rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
     text-align: left;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 5px;
+    padding-right: 5px;
     padding-bottom: 5px;
     
 
@@ -40,20 +40,14 @@ nav ul {
     background-color:rgb(38, 255, 230);
     font-weight: bold;
     transition: 0.7s;
-    padding-left: 15px;
-
-}
-
-
-.navigation a:active {
-    color: rgb(255, 99, 60);
+  
 
 }
 
 
 .responsive li {
     display: block;
-    height: auto;
+ 
 }
 main{
     display: block;
