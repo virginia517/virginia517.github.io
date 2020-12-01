@@ -110,14 +110,14 @@ button{
 
 }
 .foot-ul{
-    padding-left: 5px;
+    padding-left: 3px;
 }
 footer{
     background-color:  rgb(38, 255, 230);
     padding: 1em;
     font-weight: bold;
 }
-foot-div{
+#foot-div{
     padding: 10px;
 }
 
