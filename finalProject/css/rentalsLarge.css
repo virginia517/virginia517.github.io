@@ -6,22 +6,7 @@
     body{
         font-weight: bold;
     }
-    .first{
-        left: 200px;
-    }
-    .paragraph{
-        top: 150px;
-        font-size: 2em;
-    }
-    
-    button{
-        top: 150px;
-    }
-    .weather-information, .day-forecast, .offered{
-        width: 70%;
-        margin: 0 auto;
-        margin-top: 20px;
-    }
+   
     footer{
         width: 68%;
         margin: 0 auto;
