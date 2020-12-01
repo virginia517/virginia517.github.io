@@ -111,17 +111,21 @@ button{
 }
 .foot-ul{
     padding-left: 3px;
+    margin-bottom: 5px;
 }
 footer{
     background-color:  rgb(38, 255, 230);
     padding: 1em;
     font-weight: bold;
+    font-size: 0.75rem;
 }
-.foot-ul li+li{
+.foot-ul li:nth-child(2), .foot-ul li:nth-child(1){
     border-right: 2px solid black;
+    padding-right:5px;
 }
 #foot-div{
-    padding: 10px;
+    padding: 0;
+    margin-left: 3px;
 }
 
 
