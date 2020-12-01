@@ -66,5 +66,5 @@ let rentals= `[{
 }
 ]
 `
-
-console.log(JSON.parse(rentals)[0].reservation.fullday);
+console.log(JSON.parse(rentals));
+console.log(JSON.parse(rentals)[5].name);
