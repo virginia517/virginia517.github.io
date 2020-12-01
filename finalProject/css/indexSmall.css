@@ -98,7 +98,7 @@ button{
     color:rgb(255, 38, 63);
     font-weight: bold;
 }
-.weather-information, .day-forecast, .offered, .contact-us{
+.weather-information, .day-forecast, .offered, .contact-us, .social-media{
     display: block;
     padding-left:10px;
     margin-top: 30px;
@@ -116,6 +116,9 @@ footer{
     background-color:  rgb(38, 255, 230);
     padding: 1em;
     font-weight: bold;
+}
+.foot-ul li+li{
+    border-right: 2px solid black;
 }
 #foot-div{
     padding: 10px;
