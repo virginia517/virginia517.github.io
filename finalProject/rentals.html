@@ -14,6 +14,41 @@
     <title>Rentals Page</title>
 </head>
 <body>
-    
+    <div class="first">
+        <header>
+            <picture>
+                <source srcset="images/scootlogomedium.png" media="(min-width:520px) and (max-width:959px)">
+                <source srcset="images/scootlogolarge.png" media="(min-width:960px)">
+                <img class="logo" src="images/scootlogosmall.png" alt="Scoots-logo">
+            </picture>
+        </header>
+            <nav class="navMenu">
+                <ul class="navigation">
+                    <li><a class="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="#">Rentals</a></li>
+                    <li><a href="#">Reservation</a></li>
+                    <li><a href="#">Tours</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+        </nav>
+    </div>
+        <main>
+          
+        </main>
+        <footer>
+            <ul class="foot-ul">
+                <li>&copy; 2020 Scoots.com</li>
+                <li>Virginia J. Basco</li>
+                <li>Philippines</li>
+            </ul>
+            <div id="foot-div">
+                Last Updated: <span id="currentDate"></span>
+            </div>
+        </footer>
+        <script src="js/rentals.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="js/rentalswebfont.js"></script>
+    </body>
 </body>
 </html>
