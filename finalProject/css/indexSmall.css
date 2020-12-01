@@ -52,8 +52,14 @@ nav ul {
 
 .responsive li {
     display: block;
+    height: auto;
 }
-
+main{
+    display: block;
+}
+.second{
+    height: auto;
+}
 body{
     font-family: 'Raleway', sans-serif;
 }
@@ -66,10 +72,12 @@ h1, h2{
 .first{
     display: grid;
     grid-template-columns: auto 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: auto;
 }
+
 .navMenu{
     align-self: end;
+    
 }
 .hero{
     position: relative;
@@ -126,6 +134,9 @@ footer{
 #foot-div{
     padding: 0;
     margin-left: 3px;
+}
+.medium-img{
+    display: none;
 }
 
 
