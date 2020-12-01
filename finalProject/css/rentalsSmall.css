@@ -62,6 +62,12 @@ h1, h2{
    
 }
 
+.first{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto;
+}
+
 .navMenu{
     align-self: end;
     
@@ -69,7 +75,8 @@ h1, h2{
 
 
 
-<!--Footer-->
+
+
 .foot-ul li{
     display: inline;
 
@@ -93,7 +100,9 @@ footer{
     padding: 0;
     margin-left: 3px;
 }
-
+.medium-img{
+    display: none;
+}
 .active{
     background-color:rgb(38, 255, 230);
 
