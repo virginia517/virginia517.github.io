@@ -1,12 +1,25 @@
-let rentals= `{
+let rentals= `[{
     "name" : "MetroScooter",
     "reservation":{
-        "full day": 30,
-        "half day": 20
-    },
-    "walk in": {
-        "half day":25,
-        "full day":35
+        "fullday" : 30,
+        "halfday" : 20}
+    ,
+    "walk in":{
+        "halfday":25,
+        "fullday":35
     }
-}`
-console.log(JSON.parse(rentals.reservation.fullday));
+},
+{
+    "name" : "DioScooter",
+    "reservation":{
+        "fullday" : 40,
+        "halfday" : 30}
+    ,
+    "walk in":{
+        "halfday":35,
+        "fullday":45
+    }
+}
+]
+`
+console.log(JSON.parse(rentals[1].name));
