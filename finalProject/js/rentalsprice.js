@@ -4,7 +4,7 @@ let rentals= `[{
         "fullday" : 30,
         "halfday" : 20}
     ,
-    "walk in":{
+    "walkIn":{
         "halfday":25,
         "fullday":35
     }
@@ -15,7 +15,7 @@ let rentals= `[{
         "fullday" : 40,
         "halfday" : 30}
     ,
-    "walk in":{
+    "walkIn":{
         "halfday":35,
         "fullday":45
     }
@@ -26,7 +26,7 @@ let rentals= `[{
         "fullday" : 40,
         "halfday" : 50}
     ,
-    "walk in":{
+    "walkIn":{
         "halfday":45,
         "fullday":55
     }
@@ -37,7 +37,7 @@ let rentals= `[{
         "fullday" : 70,
         "halfday" : 50}
     ,
-    "walk in":{
+    "walkIn":{
         "halfday":80,
         "fullday":60
     }
@@ -48,7 +48,7 @@ let rentals= `[{
         "fullday" : 100,
         "halfday" : 70}
     ,
-    "walk in":{
+    "walkIn":{
         "halfday":85,
         "fullday":125
     }
@@ -59,12 +59,13 @@ let rentals= `[{
         "fullday" : 85,
         "halfday" : 60}
     ,
-    "walk in":{
+    "walkIn":{
         "halfday":70,
         "fullday":90
     }
 }
 ]
+
 `
 console.log(JSON.parse(rentals));
 console.log(JSON.parse(rentals)[5].name);
