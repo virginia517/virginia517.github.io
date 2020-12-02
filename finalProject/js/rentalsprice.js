@@ -23,8 +23,8 @@ let rentals= `[{
 {
     "name" : "PCX150",
     "reservation":{
-        "fullday" : 40,
-        "halfday" : 50}
+        "fullday" : 50,
+        "halfday" : 40}
     ,
     "walkIn":{
         "halfday":45,
@@ -38,8 +38,8 @@ let rentals= `[{
         "halfday" : 50}
     ,
     "walkIn":{
-        "halfday":80,
-        "fullday":60
+        "halfday":70,
+        "fullday":80
     }
 },
 {
@@ -82,3 +82,20 @@ document.getElementById('diowalk2').textContent = JSON.parse(rentals)[1].reserva
 
 document.getElementById('pcxres1').textContent = JSON.parse(rentals)[2].reservation.halfday;
 document.getElementById('pcxres2').textContent = JSON.parse(rentals)[2].reservation.fullday;
+document.getElementById('pcxwalk2').textContent = JSON.parse(rentals)[2].walkIn.fullday;
+document.getElementById('pcxwalk1').textContent = JSON.parse(rentals)[2].walkIn.halfday;
+
+document.getElementById('pioneeres2').textContent = JSON.parse(rentals)[3].reservation.fullday;
+document.getElementById('pioneeres1').textContent = JSON.parse(rentals)[3].reservation.halfday;
+document.getElementById('pioneerwalk1').textContent = JSON.parse(rentals)[3].walkIn.halfday;
+document.getElementById('pioneerwalk2').textContent = JSON.parse(rentals)[3].walkIn.fullday;
+
+document.getElementById('4doores2').textContent = JSON.parse(rentals)[4].reservation.fullday;
+document.getElementById('4doores1').textContent = JSON.parse(rentals)[4].reservation.halfday;
+document.getElementById('4doorwalk2').textContent = JSON.parse(rentals)[4].walkIn.fullday;
+document.getElementById('4doorwalk1').textContent = JSON.parse(rentals)[4].walkIn.halfday;
+
+document.getElementById('2doores2').textContent = JSON.parse(rentals)[5].reservation.fullday;
+document.getElementById('2doores1').textContent = JSON.parse(rentals)[5].reservation.halfday;
+document.getElementById('2doorwalk2').textContent = JSON.parse(rentals)[5].walkIn.fullday;
+document.getElementById('2doorwalk1').textContent = JSON.parse(rentals)[5].reservation.halfday;
