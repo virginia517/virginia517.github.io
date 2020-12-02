@@ -74,6 +74,28 @@ h1, h2{
 }
 
 
+main table{
+
+    border: 2px solid rgb(38, 255, 230);
+    margin: 20px;
+    border-collapse: collapse;
+    }
+
+thead tr th{
+    padding: 1em;
+    background-color: rgb(38, 255, 230);
+}
+tr th{
+    border:2px solid rgb(255, 38, 63);
+    padding: 10px;
+}
+td{
+    border:2px solid rgb(255, 38, 63);
+    padding: 10px;
+}
+
+
+
 
 
 
