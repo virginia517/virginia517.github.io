@@ -23,8 +23,8 @@
     {
         "name" : "PCX150",
         "reservation":{
-            "fullday" : 40,
-            "halfday" : 50}
+            "fullday" : 50,
+            "halfday" : 40}
         ,
         "walkIn":{
             "halfday":45,
@@ -38,8 +38,8 @@
             "halfday" : 50}
         ,
         "walkIn":{
-            "halfday":80,
-            "fullday":60
+            "halfday":70,
+            "fullday":80
         }
     },
     {

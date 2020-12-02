@@ -72,4 +72,13 @@ console.log(JSON.parse(rentals)[5].name);
 
 document.getElementById('hondares2').textContent = JSON.parse(rentals)[0].reservation.fullday;
 document.getElementById('hondares1').textContent = JSON.parse(rentals)[0].reservation.halfday;
-document.getElementById('hondawalk1').textContent = JSON.parse(rentals)[0].walkin.halfday;
+document.getElementById('hondawalk1').textContent = JSON.parse(rentals)[0].walkIn.halfday;
+document.getElementById('hondawalk2').textContent = JSON.parse(rentals)[0].walkIn.fullday;
+
+document.getElementById('diores2').textContent = JSON.parse(rentals)[1].reservation.fullday;
+document.getElementById('diores1').textContent = JSON.parse(rentals)[1].reservation.halfday;
+document.getElementById('diowalk1').textContent = JSON.parse(rentals)[1].walkIn.halfday;
+document.getElementById('diowalk2').textContent = JSON.parse(rentals)[1].reservation.fullday;
+
+document.getElementById('pcxres1').textContent = JSON.parse(rentals)[2].reservation.halfday;
+document.getElementById('pcxres2').textContent = JSON.parse(rentals)[2].reservation.fullday;
