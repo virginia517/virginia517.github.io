@@ -11,19 +11,8 @@
         margin: 0 auto;
     }
 
-    .photos{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto;
-    }
-    .photos h2{
-        grid-column: 1/6;
+   
     
-    }
-    figure img{
-        grid-column: 2/6;
-        
-    }
     footer{
         width: 68%;
         margin: 0 auto;

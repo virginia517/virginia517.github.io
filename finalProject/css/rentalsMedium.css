@@ -54,6 +54,9 @@
     width: 100%;
     display: block;
    }
+   figcaption{
+       font-size: 1.5em;
+   }
 
 
    }
