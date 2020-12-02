@@ -73,7 +73,11 @@ h1, h2{
     
 }
 
-form{
+.resform{
+    background-color: darksalmon;
+    color: darkorange;
+}
+main fieldset{
     background-color: darksalmon;
 }
 
