@@ -35,7 +35,7 @@
     </div>
 
         <main>
-        <div>
+        <div class="agreement">
             <h2>Rental Information and Services</h2>
             <ul>
                 <li>A $50 security deposit is required to confirm reservations.</li>
@@ -50,6 +50,21 @@
                 <li>Rentals may be returned to either location.</li>
             </ul>
         </div>
+    
+        <form action="thankyou.html" method="get">
+            <fieldset>
+                <legend>Information</legend>
+            <label>Name<input type="text" name="fullName" class="name" required pattern="[a-zA-Z\p{L} \.\-]{5,}"></label>
+            <label>Phone Number<input type="number" name="phoneNumber" required pattern="^\d{3}.\d{3}.\d{4}" placeholder="123.123.1234"></label>
+            <label>Email<input type="text" name="email"></label>
+            <label>Country<input type="text" name="country"></label>
+        </fieldset>
+        <fieldset>Rental Details
+        <label>Rental Type<input type="text" name="rentalType"></label>
+        <label>Number of Rental<input type="number" name="number"></label>
+        <label>Date<input type="date" name="date"></label> 
+         </fieldset>
+      </form>
         </main>
         <footer>
             <ul class="foot-ul">
