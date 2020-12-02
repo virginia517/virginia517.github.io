@@ -68,3 +68,5 @@ let rentals= `[{
 `
 console.log(JSON.parse(rentals));
 console.log(JSON.parse(rentals)[5].name);
+
+document.getElementById('hondares1').textContent = JSON.parse(rentals)[0].name.fullday;
