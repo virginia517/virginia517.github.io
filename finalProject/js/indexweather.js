@@ -29,10 +29,10 @@ fetch(Url)
      let date = new Date(jsObject.list[i].dt * 1000);
      let weather = weekDay[date.getDay()];
      if(myTime == '18:00:00' && x<=5 ) {
-        document.getElementById('tray' + x).textContent = weather;
+        document.getElementById('tray' + x).textContent =weather;
        
         document.getElementById('dayTemp' + x).textContent = Math.ceil(jsObject.list[i].main.temp);
-        x++
+        x++;
      }
      
     }
