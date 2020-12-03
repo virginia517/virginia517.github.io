@@ -32,6 +32,7 @@ fetch(Url)
         document.getElementById('tray' + x).textContent = weather;
        
         document.getElementById('dayTemp' + x).textContent = Math.ceil(jsObject.list[i].main.temp);
+        x++;
      }
     }
       });
