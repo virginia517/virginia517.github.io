@@ -101,13 +101,16 @@ h1, h2{
     margin-bottom: 0;
 }
 
-button{
+.button{
     position: absolute;
     left: 3px;
     top: 120px;
     background-color:rgb(38, 255, 230);
     color:rgb(255, 38, 63);
     font-weight: bold;
+    text-decoration: none;
+    padding: 0.50rem;
+    border-radius: 5px;
 }
 .weather-information, .day-forecast, .offered, .contact-us, .social-media{
     display: block;
