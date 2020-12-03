@@ -15,4 +15,8 @@
         width: 68%;
         margin: 0 auto;
     }
+
+    .subBtn{
+        margin-left: 0;
+    }
 }

@@ -6,7 +6,7 @@
     <meta name="author" content="Virginia J. Basco">
     <meta name="description" content="Reservation Page">
     <link rel="stylesheet" href="css/reservationNormalize.css">
-    <link rel="stylesheet" href="css/rentalsSmall.css">
+    <link rel="stylesheet" href="css/reservationSmall.css">
     <link rel="stylesheet" href="css/reservationMedium.css">
     <link rel="stylesheet" href="css/reservationLarge.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
@@ -55,7 +55,7 @@
             <fieldset>
             <legend>Information</legend>
             <label>Name<input type="text" name="fullName" class="name" required pattern="[a-zA-Z\p{L} \.\-]{5,}"></label>
-            <label>Phone Number<input type="number" name="phoneNumber" required pattern="^\d{3}.\d{3}.\d{4}" placeholder="123.123.1234"></label>
+            <label>Phone Number<input type="tel" name="phoneNumber" required pattern="^\d{3}.\d{3}.\d{4}" placeholder="123.123.1234"></label>
             <label>Email<input type="text" name="email"></label>
             <label>Country<input type="text" name="country"></label>
         </fieldset>
@@ -65,6 +65,7 @@
         <label>Number of Rental<input type="number" name="number"></label>
         <label>Date<input type="date" name="date"></label> 
         </fieldset>
+        <input type="submit" value="Reserve Now" class="subBtn">
       </form>
         </main>
         <footer>

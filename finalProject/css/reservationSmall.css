@@ -73,12 +73,67 @@ h1, h2{
     
 }
 
+.agreement{
+    display: block;
+    margin:20px;
+}
+.agreement ul li{
+    padding: .50rem;
+}
+.agreement ul{
+    margin-top: 0;
+}
+.agreement h2{
+    margin-bottom: 0;
+}
+
 .resform{
-    background-color: darksalmon;
-    color: darkorange;
+   width: 100%;
+    
 }
 main fieldset{
-    background-color: darksalmon;
+    display: flex;
+    flex-direction: column;
+    margin:20px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(38, 255, 230);
+
+}
+legend{
+    padding:0.75rem;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+form label{
+    margin-left: 30px;
+}
+input{
+    padding:0.75rem;
+    display: block;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.subBtn{
+    margin-left: 50px;
+    font-family: 'Fugaz One', cursive;
+    font-size: 1.3em;
+    width: 300px;
+    background-color:rgb(255, 38, 63) ;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+  
+}
+input:required{
+    border-left: 3px solid red;
+
+}
+input:required:valid{
+    border-left: 3px solid green;
 }
 
 
