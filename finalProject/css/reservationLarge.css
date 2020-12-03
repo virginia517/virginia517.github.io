@@ -15,6 +15,10 @@
         width: 68%;
         margin: 0 auto;
     }
+    
+    form input{
+        padding:.50rem;
+    }
 
     .subBtn{
         margin-left: 0;
