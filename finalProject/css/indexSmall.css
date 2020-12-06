@@ -3,7 +3,7 @@ nav ul {
     margin-top: 0;
     width:200px;
     margin-left: auto;
-   
+    
 }
 
 .navigation {
@@ -12,11 +12,15 @@ nav ul {
     
     
 }
+.ham{
+    margin-left: 170px;
+}
 
 .navigation li {
     display: none;
     padding-left: 0;
     padding-right: 0;
+  
    
   
     
@@ -57,6 +61,7 @@ nav ul {
 
 .responsive li {
     display: block;
+    margin-left: 100px;
 }
 main{
     display: block;
