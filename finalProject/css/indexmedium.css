@@ -16,7 +16,11 @@
         flex: 1 1 auto;
         font-weight: bold;
         color: rgb(38, 255, 230);
+        
       
+    }
+    nav ul{
+        width: auto;
     }
 
     .navigation a {
