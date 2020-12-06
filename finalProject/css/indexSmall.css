@@ -1,12 +1,15 @@
 nav ul {
     list-style-type: none;
     margin-top: 0;
-
+    width:200px;
+    margin-left: auto;
+   
 }
 
 .navigation {
     list-style: none;
     padding-left: 10px;
+    
     
 }
 
@@ -14,13 +17,19 @@ nav ul {
     display: none;
     padding-left: 0;
     padding-right: 0;
+   
+  
+    
 }
 
 .navigation li:first-child {
     display: block;
+  
     
 
 }
+
+
 
 .navigation a {
     display: block;
@@ -32,9 +41,9 @@ nav ul {
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 5px;
-    
+   }
 
-}
+
 
 
 .navigation a:hover {
@@ -48,7 +57,6 @@ nav ul {
 
 .responsive li {
     display: block;
- 
 }
 main{
     display: block;
