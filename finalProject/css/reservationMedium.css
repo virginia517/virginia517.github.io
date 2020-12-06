@@ -26,6 +26,9 @@
         
         
     }
+    nav ul{
+        width: auto;
+    }
    
 
     .navigation li:first-child {

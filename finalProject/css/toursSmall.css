@@ -1,6 +1,9 @@
 nav ul {
     list-style-type: none;
     margin-top: 0;
+    width:200px;
+    margin-left: auto;
+
 
 }
 
@@ -20,6 +23,9 @@ nav ul {
     display: block;
     
 
+}
+.ham{
+    margin-left: 170px;
 }
 
 .navigation a {
@@ -48,6 +54,7 @@ nav ul {
 
 .responsive li {
     display: block;
+    margin-left: 100px;
  
 }
 main{
