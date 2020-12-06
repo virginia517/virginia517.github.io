@@ -113,6 +113,22 @@ h1, h2{
     line-height: 1.5em;
     margin-bottom: 0;
 }
+table{
+    background-color: darkturquoise;
+    border-collapse: collapse;
+    width:230px;
+    margin-bottom: 30px;
+
+}
+
+table th{
+    padding: .50rem;
+    border: 2px solid rgb(255, 38, 63);
+}
+table td{
+    text-align: center;
+    border: 2px solid rgb(255, 38, 63);
+}
 
 .button{
     position: absolute;
