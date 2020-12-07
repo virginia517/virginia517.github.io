@@ -92,6 +92,7 @@ h1, h2{
 .agreement h2{
     margin-bottom: 0;
     background-color: rgb(38, 255, 230);
+    background-image: linear-gradient(to right, rgb(38, 255, 230) , rgb(38, 255, 230), rgb(255, 38, 63));
     padding:.75rem;
     width: auto;
 }
