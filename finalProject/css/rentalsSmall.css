@@ -104,7 +104,10 @@ td{
     border:2px solid rgb(255, 38, 63);
     padding: 10px;
 }
-
+#reservation{
+        text-align: end;
+    }
+    
 .photos{
     width: 100%;
     margin: 0 auto;
