@@ -58,15 +58,72 @@ nav ul {
 }
 main{
     display: block;
+    width: 100%;
+    padding-left: 10px;
+
+}
+.contact{
+
+    
+    border-bottom: 2px solid rgb(38, 255, 230);
+
+}
+.contact p:nth-child(1){
+    line-height: 1.5em;
+}
+
+
+.frame{
+    width: auto;
+}
+iframe{
+    width: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding:.75rem;
+    border: 2px solid rgb(38, 255, 230);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+form input{
+    display: block;
+    margin-bottom: 1em;
+    padding:.50rem;
+    border-radius: 5px;
+
+}
+textarea{
+    padding: .50rem;
+}
+.msg{
+    margin-top: 1em;
+    background-color: rgb(255, 38, 63);
+    font-family:'Fugaz One', cursive;
+    color: rgb(38, 255, 230);
+    font-size: 1.3em;
+    border-left: none;
+    border-radius: 10px;
+}
+input:required{
+    border-left: 3px solid red;
+}
+input:valid{
+    border-left: 3px solid green;
 }
 
 body{
     font-family: 'Raleway', sans-serif;
 }
-h1, h2{
+h2{
    font-family: 'Fugaz One', cursive;
+   background-color: rgb(38, 255, 230);
+   padding: .50rem;
    
 }
+
 
 .first{
     display: grid;
