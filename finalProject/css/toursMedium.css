@@ -37,6 +37,32 @@
    header img{
        grid-column: 1/2;
    }
+   article .first{
+       margin-left: 0;
+       margin-right: auto;
+   }
+   
+   article .second{
+       float:left;
+       margin-left: 0;
+   }
+  article .third{
+      float:right;
+  }
+  article .fourth{
+      float: left;
+      margin-left: 0;
+  }
+  article img{
+    margin: 10px;
+  }
+  
+  article p{
+      font-size: 1em;
+  }
+  article{
+      margin-bottom: 2em;
+  }
 
   
     
