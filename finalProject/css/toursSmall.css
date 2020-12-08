@@ -58,8 +58,30 @@ nav ul {
  
 }
 main{
-    display: block;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
 }
+h2{
+    background-image: linear-gradient(to right, rgb(38, 255, 230) , rgb(38, 255, 230), rgb(255, 38, 63));
+    padding: .50rem;
+}
+article{
+    padding: 10px;
+    width: 100%;
+}
+article p{
+    line-height: 1.5em;
+    font-size: .75rem;
+}
+
+article img{
+    width: 100%;
+}
+h3{
+    margin-bottom: 5px;
+}
+
 
 body{
     font-family: 'Raleway', sans-serif;
